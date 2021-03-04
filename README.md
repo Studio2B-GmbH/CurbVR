@@ -42,6 +42,9 @@ A build will be provided as soon as there is a playable version of this app avai
 
 All contents of this repository are licensed under the GPL-3.0 license
 
+## Attributions:
+Our work wouldn't have been possible without the use of assets made by the community. For a detailed list of the attributions and the spefic license details, please take a look at the [attributions file](attributions.md)
+
 ## Sponsoring:
 The creation of this app was financed by the PrototypeFund, a project of the Federal Ministry of Education and Research of Germany (BMBF).
 We thank them for giving us the possibility to create this app!

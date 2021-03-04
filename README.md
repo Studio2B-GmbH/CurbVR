@@ -34,6 +34,7 @@ This chapter aims to show the effects of an unrestrained climate change in diffe
 
 ## Documentation
 Documentation will be provided as soon as there is a playable version of this app available
+Please note: You need to install Oculus integration 1.38 and Textmeshpro into your copy copy of this repository to make the App work.
 
 ## Build
 A build will be provided as soon as there is a playable version of this app available

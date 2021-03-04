@@ -33,12 +33,14 @@ Here the dimensions of the human emission of CO² is explained in detail. The ca
 This chapter aims to show the effects of an unrestrained climate change in different scenarios. Currently, one scenario is provided, which shows a forest fire in the state of Brandenburg, Germany.
 
 ## Documentation
-
 Documentation will be provided as soon as there is a playable version of this app available
 
 ## Build
-
 A build will be provided as soon as there is a playable version of this app available
+
+## Licencse:
+
+All contents of this repository are licensed under the GPL-3.0 license
 
 ## Sponsoring:
 The creation of this app was financed by the PrototypeFund, a project of the Federal Ministry of Education and Research of Germany (BMBF).

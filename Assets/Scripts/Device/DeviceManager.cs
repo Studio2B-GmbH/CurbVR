@@ -177,7 +177,7 @@ public class DeviceManager : MonoBehaviour {
         return platform;
     }
 
-    public Transform GetHead() //hihi
+    public Transform GetHead()
     {
         return head;
     }

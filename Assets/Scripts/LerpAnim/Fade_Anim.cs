@@ -11,6 +11,9 @@ public class Fade_Anim : MonoBehaviour
     [SerializeField]
     float startAlpha;
 
+    [SerializeField]
+    float delay;
+
     MeshRenderer[] rends;
 
     TextMeshPro[] tmps;
@@ -55,6 +58,8 @@ public class Fade_Anim : MonoBehaviour
 
     IEnumerator Fade(float fadeAmount)
     {
+        yield return new WaitForSeconds(delay);
+
         Color[] startCols = new Color[rends.Length];
         Color[] targetCols = new Color[rends.Length];
         float[] startTMPAlphas = new float[tmps.Length];

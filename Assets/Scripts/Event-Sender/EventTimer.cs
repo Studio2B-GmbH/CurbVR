@@ -9,6 +9,10 @@ using UnityEngine.Events;
 
 public class EventTimer: MonoBehaviour
 {
+    //If the event timer should start itself on Monobehaviour Start
+    [SerializeField]
+    bool selfInit;
+
     [SerializeField]
     float startCounter = 0;
 
@@ -27,24 +31,20 @@ public class EventTimer: MonoBehaviour
 
     bool timerEnabled;
 
-    bool timerPaused;
-
     private void Start()
     {
         timerCallback = StartTimer;
 
         foreach (TimeableObject tO in objects)
         {
-            if (counter >= tO.eventStart && !tO.activated)
+            if (counter > tO.eventStart && !tO.activated)
             {
                 tO.activated = true;
             }
-
-            if (counter >= tO.eventEnd && tO.eventEnd > 0.1 && tO.activated && !tO.ended)
-            {
-                tO.ended = true;
-            }
         }
+
+        if (selfInit)
+            StartTimer();
     }
 
     public void StartTimer()
@@ -65,7 +65,6 @@ public class EventTimer: MonoBehaviour
         foreach (TimeableObject tO in objects)
         {
             tO.activated = false;
-            tO.ended = false;
         }
     }
 
@@ -87,18 +86,12 @@ public class EventTimer: MonoBehaviour
 
                     //If there is a listener on the callback function, we expect that the user
                     //intented to pause the event timer here and continue when the function that
-                    //is hooked up is done.
+                    //is hooked up has called StartTimer() on this script.
                     if(tO.WaitForCallback.GetPersistentEventCount() > 0)
                     {
                         PauseTimer();
                         tO.WaitForCallback.Invoke(timerCallback);
                     }
-                }
-
-                if(counter >= tO.eventEnd && tO.eventEnd > 0.1 && tO.activated && !tO.ended)
-                {
-                    tO.EndEvent();
-                    tO.ended = true;
                 }
             }
 

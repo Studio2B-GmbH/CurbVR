@@ -10,8 +10,14 @@ public class Scale_Animation : MonoBehaviour
     [SerializeField]
     float startSize;
 
+    [SerializeField]
+    float delay;
+
+    float originalSize;
+
     private void Start()
     {
+        originalSize = transform.localScale.x;
         ScaleInstantly(startSize);
     }
 
@@ -25,6 +31,11 @@ public class Scale_Animation : MonoBehaviour
         StartCoroutine(ScaleAnim(amount));
     }
 
+    public void ScaleOverTimeToOriginalSize()
+    {
+        StartCoroutine(ScaleAnim(originalSize));
+    }
+
     public void ScaleInstantly(float amount)
     {
         StopAllCoroutines();
@@ -34,6 +45,8 @@ public class Scale_Animation : MonoBehaviour
 
     IEnumerator ScaleAnim(float scaleAmount)
     {
+        yield return new WaitForSeconds(delay);
+
         Vector3 startScale = transform.localScale;
         Vector3 targetScale = new Vector3(scaleAmount, scaleAmount, scaleAmount);
 

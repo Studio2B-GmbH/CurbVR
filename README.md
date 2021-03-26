@@ -1,7 +1,7 @@
 # CurbVR
 A VR-App for teaching students about the climate crisis
 
-#### Disclaimer: This app is still in active development and does at this point not represent a playable state. Watch out for updates soon!
+#### Disclaimer: This app is still in active development and does at this point not represent a playable state. We aim for a release on May 31!
 
 ## Summary
 

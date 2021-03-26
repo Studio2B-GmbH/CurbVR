@@ -16,7 +16,7 @@ public class ControllerSwitcher : MonoBehaviour
     bool rightSideActivated;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         if(DeviceManager.Instance.GetPlatform() == DeviceManager.Platform.Quest || DeviceManager.Instance.GetPlatform() == DeviceManager.Platform.PCRift)
         {

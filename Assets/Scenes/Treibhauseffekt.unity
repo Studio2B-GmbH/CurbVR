@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -803,8 +803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e6e811c0231a504880c4e6156ba9100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headsetEmulator: {fileID: 424894966}
-  oculusHead: {fileID: 1584285961}
+  headsetEmulator: {fileID: 114473265140410286}
+  oculusHead: {fileID: 985913640}
 --- !u!4 &119033798
 Transform:
   m_ObjectHideFlags: 0
@@ -1160,6 +1160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!114 &167988216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,12 +1188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465f9ae1898b0f94f981844a6157c41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selfInit: 0
   startCounter: 0
   objects:
   - eventStart: 110
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -1284,16 +1284,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 2
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -1308,16 +1303,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 1
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -1332,9 +1322,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls:
@@ -1535,12 +1522,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!4 &187595790 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4484591312116288, guid: 126d619cf4daa52469682f85c1378b4a,
-    type: 3}
-  m_PrefabInstance: {fileID: 986039210}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &189896931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,6 +1990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!1 &257890713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,6 +2121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!1 &265588618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,6 +2810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!198 &375496689 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 8192420579931437835, guid: 88d34edc1e695744e85f0e297fde03af,
@@ -3115,38 +3099,18 @@ Transform:
   m_Father: {fileID: 2101908669}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 22.038, y: 20.251001, z: 17.627}
---- !u!1 &424894965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a,
-    type: 3}
-  m_PrefabInstance: {fileID: 986039210}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &424894966 stripped
+--- !u!114 &424894970 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114473266101150724, guid: 126d619cf4daa52469682f85c1378b4a,
+  m_CorrespondingSourceObject: {fileID: 3773118156474717566, guid: 8003bb7986d8435418546dc2bfb6d17d,
     type: 3}
-  m_PrefabInstance: {fileID: 986039210}
+  m_PrefabInstance: {fileID: 3773118156354352260}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424894965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &424894970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424894965}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 244a7081e095f4d41ac33f755d9e1488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questControllerLeft: {fileID: 559090769}
-  questControllerRight: {fileID: 1791748577}
 --- !u!1 &427643592
 GameObject:
   m_ObjectHideFlags: 0
@@ -3174,7 +3138,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 2.065, z: -1.505}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
-  - {fileID: 986039211}
+  - {fileID: 985913646}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3386,6 +3350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!114 &463189779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3952,18 +3917,6 @@ Transform:
   m_Father: {fileID: 2101908669}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 16.631, y: 27.515001, z: 26.591002}
---- !u!114 &559090769 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 506373492164238589, guid: 9b22189c79998d24d94a1b3451846445,
-    type: 3}
-  m_PrefabInstance: {fileID: 1416576726}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e398e6de24d2b47a11b3b1fb6df1c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &611100185
 GameObject:
   m_ObjectHideFlags: 0
@@ -4399,6 +4352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animTime: 3
   startSize: 0
+  delay: 0
 --- !u!1 &712260886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4465,12 +4419,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465f9ae1898b0f94f981844a6157c41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selfInit: 0
   startCounter: 0
   objects:
   - eventStart: 1
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -4519,16 +4472,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 44
-    eventEnd: 58
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -4554,38 +4502,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 8307786039361690808}
-          m_MethodName: Stop
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 8192420579184591058}
-          m_MethodName: Stop
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 61
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -4699,16 +4620,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 95
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -4770,16 +4686,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 140
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -5017,16 +4928,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 110
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -5065,9 +4971,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
@@ -5098,6 +5001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!114 &717013447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10665,90 +10569,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &900316678
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2002078027934915861, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: controllerSwitcher
-      value: 
-      objectReference: {fileID: 424894970}
-    - target: {fileID: 2002078027934915861, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: hightlight
-      value: 
-      objectReference: {fileID: 8300000, guid: 9319f80069cae54429f114fc7a7d0169, type: 3}
-    - target: {fileID: 2002078027934915861, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: select
-      value: 
-      objectReference: {fileID: 8300000, guid: fe1c1849d49e4a34aaa41b2a74044c3d, type: 3}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109520, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2987217173056109526, guid: c539a14adfc71a34ab67f3afc8ff82bd,
-        type: 3}
-      propertyPath: m_Name
-      value: Pointer
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c539a14adfc71a34ab67f3afc8ff82bd, type: 3}
 --- !u!1 &914062761
 GameObject:
   m_ObjectHideFlags: 0
@@ -10940,103 +10760,17 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 981612085}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &986039210
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 427643593}
-    m_Modifications:
-    - target: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_Name
-      value: OVRCameraRig
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_ClearFlags
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.6901961
-      objectReference: {fileID: 0}
-    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.6901961
-      objectReference: {fileID: 0}
-    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0.6901961
-      objectReference: {fileID: 0}
-    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-      propertyPath: far clip plane
-      value: 1500
-      objectReference: {fileID: 0}
-    - target: {fileID: 114473266101150724, guid: 126d619cf4daa52469682f85c1378b4a,
-        type: 3}
-      propertyPath: opMode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114473266101150724, guid: 126d619cf4daa52469682f85c1378b4a,
-        type: 3}
-      propertyPath: activateKeys.Array.data[0]
-      value: 324
-      objectReference: {fileID: 0}
-    - target: {fileID: 114473266101150724, guid: 126d619cf4daa52469682f85c1378b4a,
-        type: 3}
-      propertyPath: resetHmdPoseOnRelease
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
---- !u!4 &986039211 stripped
+--- !u!4 &985913640 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a,
+  m_CorrespondingSourceObject: {fileID: 3773118155997588908, guid: 8003bb7986d8435418546dc2bfb6d17d,
     type: 3}
-  m_PrefabInstance: {fileID: 986039210}
+  m_PrefabInstance: {fileID: 3773118156354352260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &985913646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3773118156354352260}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1019962272
 GameObject:
@@ -11513,6 +11247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!1 &1167952317
 GameObject:
   m_ObjectHideFlags: 0
@@ -11749,6 +11484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!1 &1182741617
 GameObject:
   m_ObjectHideFlags: 0
@@ -12695,75 +12431,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef643c82da586049931f48d666229ec, type: 3}
---- !u!1001 &1228671596
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 187595790}
-    m_Modifications:
-    - target: {fileID: 4309414274299634745, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_Name
-      value: OculusTouchForQuestAndRiftS_Right
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309414274300065817, guid: 217dc717f6a047949831c0364dd48f9d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 217dc717f6a047949831c0364dd48f9d, type: 3}
 --- !u!1 &1230976484
 GameObject:
   m_ObjectHideFlags: 0
@@ -18119,75 +17786,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390939559}
   m_Mesh: {fileID: -2432090755550338912, guid: 5bf8245b4d333634babdb138fae85cda, type: 3}
---- !u!1001 &1416576726
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1715808675}
-    m_Modifications:
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492163839585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 506373492164139585, guid: 9b22189c79998d24d94a1b3451846445,
-        type: 3}
-      propertyPath: m_Name
-      value: OculusTouchForQuestAndRiftS_Left
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9b22189c79998d24d94a1b3451846445, type: 3}
 --- !u!1 &1426360154
 GameObject:
   m_ObjectHideFlags: 0
@@ -18658,12 +18256,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558771503}
   m_Mesh: {fileID: -2432090755550338912, guid: 5bf8245b4d333634babdb138fae85cda, type: 3}
---- !u!4 &1584285961 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400002, guid: 126d619cf4daa52469682f85c1378b4a,
-    type: 3}
-  m_PrefabInstance: {fileID: 986039210}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1614450781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19484,12 +19076,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697906740}
   m_Mesh: {fileID: -2432090755550338912, guid: 5bf8245b4d333634babdb138fae85cda, type: 3}
---- !u!4 &1715808675 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4593680705043960, guid: 126d619cf4daa52469682f85c1378b4a,
-    type: 3}
-  m_PrefabInstance: {fileID: 986039210}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1729208179 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0ef643c82da586049931f48d666229ec,
@@ -19855,6 +19441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 3
   startAlpha: 0
+  delay: 0
 --- !u!114 &1769358992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19869,18 +19456,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axisLimitations: 3
   rotationOffset: {x: 0, y: 0, z: 0}
---- !u!114 &1791748577 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4309414274299667109, guid: 217dc717f6a047949831c0364dd48f9d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1228671596}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e398e6de24d2b47a11b3b1fb6df1c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1796909121
 GameObject:
   m_ObjectHideFlags: 0
@@ -21688,12 +21263,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465f9ae1898b0f94f981844a6157c41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selfInit: 0
   startCounter: 0
   objects:
   - eventStart: 37
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -21708,27 +21282,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1769358989}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 46
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -21742,58 +21300,17 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 849510670}
-          m_MethodName: Stop
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 849510670}
-          m_MethodName: Clear
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
           m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 56.5
-    eventEnd: 88
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1276259240159982450}
           m_MethodName: Play
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1276259240159982450}
-          m_MethodName: Stop
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -21807,28 +21324,12 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 59
-    eventEnd: 88
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1276259240517478641}
           m_MethodName: Play
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1276259240517478641}
-          m_MethodName: Stop
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -21842,28 +21343,12 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 64
-    eventEnd: 88
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1276259239225795849}
           m_MethodName: Play
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1276259239225795849}
-          m_MethodName: Stop
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -21877,9 +21362,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 75
-    eventEnd: 88
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -21894,27 +21377,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1276259238821835722}
-          m_MethodName: Stop
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 90
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -21940,16 +21407,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 95
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -21964,27 +21426,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 359840188}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 99
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -21999,27 +21445,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1267999824}
-          m_MethodName: ScaleToStart
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 104
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22034,27 +21464,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1177898057}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 112
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22069,27 +21483,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1152111677}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 112
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22104,27 +21502,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1113135334}
-          m_MethodName: ScaleToStart
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 105.5
-    eventEnd: 118
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22139,40 +21521,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 265200706}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 114
-    eventEnd: 120
     activated: 0
-    ended: 0
     OnEventStart:
-      m_PersistentCalls:
-        m_Calls: []
-    OnEventEnd:
       m_PersistentCalls:
         m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 120
-    eventEnd: 121
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22222,16 +21583,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 121
-    eventEnd: 132
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22268,27 +21624,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 359840188}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 124
-    eventEnd: 132
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22314,27 +21654,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 274521579}
-          m_MethodName: ScaleToStart
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 126
-    eventEnd: 132
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22349,27 +21673,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 238722978}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 131
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22384,16 +21692,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 140
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22485,27 +21788,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 359840188}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 160
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22575,16 +21862,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 175
-    eventEnd: 0
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22621,16 +21903,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 145
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22656,27 +21933,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1267999824}
-          m_MethodName: ScaleToStart
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 146
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22710,20 +21971,6 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 1
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1177898057}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -22731,9 +21978,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 148
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22770,27 +22015,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1152111677}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 150
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22805,27 +22034,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 398894201}
-          m_MethodName: ScaleToStart
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 151
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22840,27 +22053,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2098721537}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 152
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22875,27 +22072,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 463189778}
-          m_MethodName: FadeOverTime
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 153
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -22910,27 +22091,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2033859490}
-          m_MethodName: ScaleToStart
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
   - eventStart: 175
-    eventEnd: 158
     activated: 0
-    ended: 0
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
@@ -23022,9 +22187,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    OnEventEnd:
-      m_PersistentCalls:
-        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
@@ -23055,6 +22217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!114 &2051310776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24062,6 +23225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTime: 1
   startAlpha: 1
+  delay: 0
 --- !u!114 &2098721538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24588,6 +23752,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115440558}
   m_Mesh: {fileID: -2432090755550338912, guid: 5bf8245b4d333634babdb138fae85cda, type: 3}
+--- !u!114 &114473265140410286 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3876049160740983594, guid: 8003bb7986d8435418546dc2bfb6d17d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3773118156354352260}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &508162540395272304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24761,6 +23937,75 @@ ParticleSystem:
     type: 3}
   m_PrefabInstance: {fileID: 6916325585787609232}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3773118156354352260
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 427643593}
+    m_Modifications:
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155997588906, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773118155998081418, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: m_Name
+      value: OVRCameraRig
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8003bb7986d8435418546dc2bfb6d17d, type: 3}
 --- !u!1001 &4611305892452503352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24836,6 +24081,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4611305892452503352}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6757050041093828340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5047711019177790951, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: controllerSwitcher
+      value: 
+      objectReference: {fileID: 424894970}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408615260444076836, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: m_Name
+      value: Pointer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5, type: 3}
 --- !u!1001 &6916325585787609232
 PrefabInstance:
   m_ObjectHideFlags: 0

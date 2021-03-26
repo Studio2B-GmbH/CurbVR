@@ -44,7 +44,10 @@ public class EventTimer: MonoBehaviour
         }
 
         if (selfInit)
+        {
             StartTimer();
+            counter = startCounter;
+        }
     }
 
     public void StartTimer()

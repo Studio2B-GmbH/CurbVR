@@ -5,6 +5,12 @@ using UnityEngine;
 public class Pointer_Controller : MonoBehaviour
 {
     [SerializeField]
+    float scaleByDistance = 1f;
+
+    [SerializeField]
+    float maxLaserDistance = 3f;
+
+    [SerializeField]
     GameObject Hitsphere;
 
     [SerializeField]
@@ -14,13 +20,13 @@ public class Pointer_Controller : MonoBehaviour
     GameObject RayCaster;
 
     [SerializeField]
-    float scaleByDistance = 1f;
-
-    [SerializeField]
     AudioClip hightlight;
 
     [SerializeField]
     AudioClip select;
+
+    [SerializeField]
+    LineRenderer laserLineRend;
 
     public delegate void enterGameObject(RaycastHit hit);
     public static event enterGameObject OnEnterGameObject;
@@ -46,9 +52,6 @@ public class Pointer_Controller : MonoBehaviour
     public delegate void constantRayCastHitUpdateHMD(RaycastHit hit);
     public static event constantRayCastHitUpdateHMD OnConstantRayCastHitUpdateHMD;
 
-    [SerializeField]
-    ControllerSwitcher controllerSwitcher;
-
     GameObject controllerAnchor;
     Transform hmd;
     bool didRayHit;
@@ -72,6 +75,9 @@ public class Pointer_Controller : MonoBehaviour
 
         noHMDHitLayerMask = 1 << 10;
         noHMDHitLayerMask = ~noHMDHitLayerMask;
+
+        SetLaserDistance(1f);
+
     }
 
     // Update is called once per frame
@@ -79,7 +85,7 @@ public class Pointer_Controller : MonoBehaviour
     {
         didRayHit = false;
 
-        controllerAnchor = controllerSwitcher.GetController();
+        controllerAnchor = ControllerManager.Instance.GetController();
         hmd = DeviceManager.Instance.GetHead();
 
         transform.position = controllerAnchor.transform.position;
@@ -102,9 +108,14 @@ public class Pointer_Controller : MonoBehaviour
                 HitRing.transform.localScale = SphereStartSize * dist * scaleByDistance;
                 Hitsphere.SetActive(true);
 
+                SetLaserDistance(Vector3.Distance(hit.point, transform.position));
+
                 if (DeviceManager.Instance.GetSelectionButtonDown() && hit.collider.tag != "VisualOnly")
                 {
-                    OnPressedGameObjectDown.Invoke(hit);
+                    if(OnPressedGameObjectDown != null)
+                    {
+                        OnPressedGameObjectDown.Invoke(hit);
+                    }
                     HitRing.SetActive(true);
                     Audio.PlayOneShot(select);
                 }
@@ -140,7 +151,16 @@ public class Pointer_Controller : MonoBehaviour
                     {
                         OnEnterGameObject?.Invoke(hit);
                         OnExitGameObject?.Invoke(oldHit);
-                        Audio.PlayOneShot(hightlight);
+
+                        //If Pointer hovers over selectable object, play sound
+
+                        if(hit.transform.GetComponent<PointerEventReciever>() != null)
+                        {
+                            if (hit.transform.GetComponent<PointerEventReciever>().recieverEnabled)
+                            {
+                                Audio.PlayOneShot(hightlight);
+                            }
+                        }
                     }
                 }       
                 
@@ -148,7 +168,14 @@ public class Pointer_Controller : MonoBehaviour
                 if(oldhitGameObject == null)
                 {
                     OnEnterGameObject?.Invoke(hit);
-                    Audio.PlayOneShot(hightlight);
+
+                    if (hit.transform.GetComponent<PointerEventReciever>() != null)
+                    {
+                        if (hit.transform.GetComponent<PointerEventReciever>().recieverEnabled)
+                        {
+                            Audio.PlayOneShot(hightlight);
+                        }
+                    }
                 }
 
                 oldhitGameObject = hit.transform.gameObject;
@@ -170,11 +197,19 @@ public class Pointer_Controller : MonoBehaviour
             oldhitGameObject = null;
             Hitsphere.SetActive(false);
             HitRing.SetActive(false);
-        }
 
-        //if (Physics.Raycast(hmd.position, hmd.TransformDirection(Vector3.forward), out hit, 100f))
-        //{
-        //    OnConstantRayCastHitUpdateHMD?.Invoke(hit);
-        //}        
+            SetLaserDistance(1f);
+
+        }    
+    }
+
+
+    private void SetLaserDistance(float distance)
+    {
+        Vector3 position1 = transform.position;
+        Vector3 position2 = transform.position + (transform.forward * Mathf.Clamp(distance, 0, maxLaserDistance));
+
+        laserLineRend.SetPosition(0, position1);
+        laserLineRend.SetPosition(1, position2);
     }
 }

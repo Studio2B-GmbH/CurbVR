@@ -5,9 +5,6 @@ using UnityEngine;
 public class ControllerActivator : MonoBehaviour
 {
     [SerializeField]
-    private GameObject laserPointer;
-
-    [SerializeField]
     private Renderer controllerRenderer;
 
     [SerializeField]
@@ -21,7 +18,6 @@ public class ControllerActivator : MonoBehaviour
 
     public void Activate()
     {
-        laserPointer.SetActive(true);
         controllerRenderer.material = opaqueMaterial;
         foreach (GameObject tipp in tipps)
         {
@@ -31,7 +27,6 @@ public class ControllerActivator : MonoBehaviour
 
     public void Deactivate()
     {
-        laserPointer.SetActive(false);
         controllerRenderer.material = transparentMaterial;
         foreach (GameObject tipp in tipps)
         {

@@ -5,7 +5,7 @@
 // - no lightmap support
 // - no per-material color
 
-Shader "Unlit/TransparentWithColor" {
+Shader "Unlit/Transparent Color" {
     Properties{
         _Color("Color", color) = (1,1,1,1)
         _MainTex("Base (RGB) Trans (A)", 2D) = "white" {}

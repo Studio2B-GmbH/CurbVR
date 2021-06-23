@@ -3,29 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "1PASH9AHW89342",
         "name": "com.DefaultCompany.CURBClean",
-        "processId": 27231,
+        "processId": 32135,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.oculus.shellenv",
-            "processId": 2277,
-            "exited": false
-        },
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.DefaultCompany.CURBClean",
-            "processId": 4205,
-            "exited": true
-        },
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.DefaultCompany.CURBClean",
-            "processId": 4598,
-            "exited": true
-        },
         {
             "deviceId": "1PASH9AHW89342",
             "name": "com.DefaultCompany.CURBClean",
@@ -48,12 +30,18 @@
             "deviceId": "1PASH9AHW89342",
             "name": "com.DefaultCompany.CURBClean",
             "processId": 6876,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1PASH9AHW89342",
             "name": "com.DefaultCompany.CURBClean",
             "processId": 27231,
+            "exited": true
+        },
+        {
+            "deviceId": "1PASH9AHW89342",
+            "name": "com.DefaultCompany.CURBClean",
+            "processId": 32135,
             "exited": false
         }
     ],

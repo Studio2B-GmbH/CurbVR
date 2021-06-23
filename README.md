@@ -1,13 +1,11 @@
 # CurbVR
-A VR-App for teaching students about the climate crisis
 
-#### Disclaimer: This app is still in active development and does at this point not represent a playable state. We aim for a release on May 31!
-
-## Summary
-
-Curb VR is an app running on mobile VR Devices (Currently supported: Oculus Quest & Quest 2), which aims to teach students in the ages of 12-16 about the climate crisis. The app is currently only available in german, but more languages can be added easily!
+Curb VR is an app running on mobile VR Devices, which aims to teach students in the ages of 10-16 about the **climate crisis**. The app is currently **only available in german**, but we aim to add english language support soon!
 
 More info about this project here (In German only): https://demoweek.prototypefund.de/projects/17-curbvr.html
+
+
+#### Disclaimer: This app is still in active development and does at this point not represent a playable state. We aim for a release on the end of June!
 
 ## Content
 
@@ -32,23 +30,28 @@ Here the dimensions of the human emission of CO² is explained in detail. The ca
 
 This chapter aims to show the effects of an unrestrained climate change in different scenarios. Currently, one scenario is provided, which shows a forest fire in the state of Brandenburg, Germany.
 
-## Documentation
-Documentation will be provided as soon as there is a playable version of this app available
-Please note: You need to install Oculus integration 1.38 and Textmeshpro into your copy copy of this repository to make the App work.
+## Installation (WIP)
+Installation will be possible after the release! You need a Oculus Quest, or Oculus Quest 2 to install this app. [Click here for detailled installation instructions](https://github.com/KlimaVR/CurbVR/wiki/Installing-CurbVR-on-your-device)
 
-## Build
-A build will be provided as soon as there is a playable version of this app available
+## Are you a institution that is interested in bringing this app to schools with us?
 
-## Licencse:
+[Have a look here](https://github.com/KlimaVR/CurbVR/wiki/Using-CurbVR-in-a-school---educational-institution) or contact us at KlimaVR@protonmail.com !
+
+## Development (WIP)
+If youre interested in developing and enhancing this app with us, [take a look here](https://github.com/KlimaVR/CurbVR/wiki/Development). At the moment, we're especially looking for **native english voice actors** and **developers who are interested in porting this app to other devices**
+
+***
+
+
+### Licencse:
 
 All contents of this repository are licensed under the GPL-3.0 license
 
-## Attributions:
+### Attributions:
 Our work wouldn't have been possible without the use of assets made by the community. For a detailed list of the attributions and the spefic license details, please take a look at the [attributions file](attributions.md)
 
-## Sponsoring:
+### Sponsoring:
 The creation of this app was financed by the PrototypeFund, a project of the Federal Ministry of Education and Research of Germany (BMBF).
 We thank them for giving us the possibility to create this app!
 
-![alt text](https://raw.githubusercontent.com/prototypefund/ptf-ci/master/logos/PrototypeFund-P-Logo.png "Title")
-![alt text](https://prototypefund.de/wp-content/uploads/2016/07/logo-bmbf.svg "Title")
+<img src="https://raw.githubusercontent.com/prototypefund/ptf-ci/master/logos/PrototypeFund-P-Logo.png" alt="" width="100" height="170"> <img src="https://prototypefund.de/wp-content/uploads/2016/07/logo-bmbf.svg" alt="" width="150" height="170">

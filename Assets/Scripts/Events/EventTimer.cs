@@ -92,7 +92,7 @@ public class EventTimer: MonoBehaviour
                     //If there is a listener on the callback function, we expect that the user
                     //intented to pause the event timer here and continue when the function that
                     //is hooked up has called StartTimer() on this script.
-                    if(tO.WaitForCallback.GetPersistentEventCount() > 0)
+                    if(tO.WaitForCallback.GetPersistentEventCount() > 0 && tO.WaitForCallback != null)
                     {
                         PauseTimer();
                         tO.WaitForCallback.Invoke(timerCallback);
@@ -100,9 +100,11 @@ public class EventTimer: MonoBehaviour
                 }
             }
 
+            if (Input.GetKeyDown(KeyCode.Q))
+                counter += 5;
+
             counter += Time.deltaTime;
         }
-
     }
 
 }

@@ -35,9 +35,10 @@ public class Attract_Animation : MonoBehaviour
         {
             foreach (Transform grandChild in child)
             {
-                goWithDistance.Add(new GameObjectDistance(child.gameObject, Vector3.Distance(transform.position, child.position)));
+                goWithDistance.Add(new GameObjectDistance(grandChild.gameObject, Vector3.Distance(transform.position, grandChild.position)));
             }
         }
+
 
         goWithDistance.Sort((x, y) => x.distance.CompareTo(y.distance));
 
@@ -47,16 +48,16 @@ public class Attract_Animation : MonoBehaviour
     IEnumerator AttractAnimation(List<GameObjectDistance> gameObjectWithDistances)
     {
 
-        for (float i = 0; i < animTime; i+= Time.deltaTime)
+        for (float i = 0; i < animTime; i += Time.deltaTime)
         {
             for (int j = 0; j < gameObjectWithDistances.Count; j++)
             {
                 Vector3 dirToCenter = transform.position - gameObjectWithDistances[j].go.transform.position;
-                float normalizedDistance = Mathf.InverseLerp(0, 7000, Vector3.Distance(gameObjectWithDistances[j].go.transform.position, transform.position)); 
-                gameObjectWithDistances[j].go.transform.position += (dirToCenter.normalized * velocity.Evaluate(i/animTime));
+                float normalizedDistance = Mathf.InverseLerp(0, 7000, Vector3.Distance(gameObjectWithDistances[j].go.transform.position, transform.position));
+                gameObjectWithDistances[j].go.transform.position += (dirToCenter.normalized * velocity.Evaluate(i / animTime));
                 float scale = gameObjectWithDistances[j].originalScale * attractOrbsScaleMultiplicator.Evaluate(normalizedDistance);
 
-                if(j == 1)
+                if (j == 1)
                 {
                     print(normalizedDistance);
                     print(scale);
@@ -65,7 +66,7 @@ public class Attract_Animation : MonoBehaviour
                 gameObjectWithDistances[j].go.transform.localScale = new Vector3(scale, scale, scale);
             }
 
-            float orbToGrowScale = mainOrbScale.Evaluate(i/animTime);
+            float orbToGrowScale = mainOrbScale.Evaluate(i / animTime);
             orbToGrow.transform.localScale = new Vector3(orbToGrowScale, orbToGrowScale, orbToGrowScale);
 
             yield return null;
@@ -74,7 +75,7 @@ public class Attract_Animation : MonoBehaviour
     }
 
 
-    
+
 }
 
 public struct GameObjectDistance

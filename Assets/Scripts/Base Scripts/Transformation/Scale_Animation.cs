@@ -13,7 +13,15 @@ public class Scale_Animation : MonoBehaviour
     [SerializeField]
     float delay;
 
+    [SerializeField]
+    bool playSpawnOrbAnimation;
+
+    [SerializeField]
+    GameObject spawnOrbPrefab;
+
     float originalSize;
+
+    GameObject spawnOrbObject;
 
     private void Start()
     {
@@ -40,6 +48,12 @@ public class Scale_Animation : MonoBehaviour
         {
             StartCoroutine(ScaleAnim(originalSize));
         }
+
+        if (playSpawnOrbAnimation)
+        {
+            spawnOrbObject = Instantiate(spawnOrbPrefab, transform.position, Quaternion.identity);
+            spawnOrbObject.transform.localScale = new Vector3(originalSize, originalSize, originalSize);
+        }
     }
 
     public void ScaleInstantly(float amount)
@@ -63,6 +77,11 @@ public class Scale_Animation : MonoBehaviour
             transform.localScale = Vector3.Lerp(startScale, targetScale, dampedLerp);
 
             yield return null;
+        }
+
+        if(spawnOrbObject != null)
+        {
+            Destroy(spawnOrbObject);
         }
     }
 

@@ -7,9 +7,7 @@ public class Button3D : MonoBehaviour
 {
     bool buttonEnabled = true;
 
-    bool activated;
-
-    enum startState { active, inactive, activated}
+    enum startState { active, inactive}
 
     [SerializeField]
     bool startHidden;
@@ -22,18 +20,6 @@ public class Button3D : MonoBehaviour
 
     [SerializeField]
     Texture2D highlightTex;
-
-    [SerializeField]
-    Texture2D pressedTex;
-
-    [SerializeField]
-    Texture2D inactiveTex;
-
-    [SerializeField]
-    Texture2D activatedTex;
-
-    [SerializeField]
-    Texture2D activatedHighlightTex;
 
     Collider col;
 
@@ -56,6 +42,8 @@ public class Button3D : MonoBehaviour
     [SerializeField]
     PointerEvent OnPointerPressUp = new PointerEvent();
 
+    Vector3 originalSize;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,19 +53,16 @@ public class Button3D : MonoBehaviour
 
         Material newInstance = new Material(rend.material);
         rend.material = newInstance;
+        rend.material.mainTexture = defaultTex;
 
         switch (buttonStartState)
         {
             case startState.active:
-                rend.material.mainTexture = defaultTex;
+                rend.material.color = new Color(1, 1, 1, 1f);
                 break;
             case startState.inactive:
                 buttonEnabled = false;
-                rend.material.mainTexture = inactiveTex;
-                break;
-            case startState.activated:
-                activated = true;
-                rend.material.mainTexture = activatedTex;
+                rend.material.color = new Color(1, 1, 1, 0.5f);
                 break;
             default:
                 break;
@@ -89,10 +74,10 @@ public class Button3D : MonoBehaviour
         else
             fadeAnim.FadeInstantly(1);
 
+        originalSize = transform.localScale;
 
         OnStart.Invoke();
 
-        Debug.Log("StartInvoked");
     }
 
 
@@ -102,12 +87,9 @@ public class Button3D : MonoBehaviour
         {
             OnPointerEnter.Invoke(hit);
 
-            Debug.Log("PointerEnter");
+            transform.localScale = originalSize * 1.1f;
 
-            if (activated)
-                rend.material.mainTexture = activatedHighlightTex;
-
-            else
+            if (highlightTex != null)
                 rend.material.mainTexture = highlightTex;
         }
     }
@@ -118,11 +100,9 @@ public class Button3D : MonoBehaviour
         {
             OnPointerExit.Invoke(hit);
 
-            if (activated)         
-                rend.material.mainTexture = activatedTex;            
+            transform.localScale = originalSize;
 
-            else
-                rend.material.mainTexture = defaultTex;
+            rend.material.mainTexture = defaultTex;
         }
     }
     void PointerStay(RaycastHit hit)
@@ -138,8 +118,6 @@ public class Button3D : MonoBehaviour
         if (hit.transform.gameObject == this.gameObject && buttonEnabled)
         {
             OnPointerPressDown.Invoke(hit);
-
-            rend.material.mainTexture = pressedTex;
         }
     }
 
@@ -148,8 +126,6 @@ public class Button3D : MonoBehaviour
         if (hit.transform.gameObject == this.gameObject && buttonEnabled)
         {
             OnPointerStayPressed.Invoke(hit);
-
-            rend.material.mainTexture = pressedTex;
         }
     }
 
@@ -158,11 +134,6 @@ public class Button3D : MonoBehaviour
         if (hit.transform.gameObject == this.gameObject && buttonEnabled)
         {
             OnPointerPressUp.Invoke(hit);
-
-            if (activated)
-                rend.material.mainTexture = activatedHighlightTex;
-            else
-                rend.material.mainTexture = highlightTex;
         }
     }
 
@@ -170,28 +141,16 @@ public class Button3D : MonoBehaviour
     public void SetInactive()
     {
         buttonEnabled = false;
-        activated = false;
 
-        rend.material.mainTexture = inactiveTex;
+        rend.material.color = new Color(1,1,1,0.5f);
     }
 
 
     public void SetActive()
     {
         buttonEnabled = true;
-        activated = false;
 
-        rend.material.mainTexture = defaultTex;
-
-    }
-
-    //Activated means that the content which the buttons points to has already been seen
-    public void SetActivated()
-    {
-        buttonEnabled = false;
-        activated = true;
-
-        rend.material.mainTexture = activatedTex;
+        rend.material.color = Color.white;
     }
 
     public void SetCollidersActive(bool active)
@@ -203,13 +162,14 @@ public class Button3D : MonoBehaviour
     {
         fadeAnim.FadeOverTime(1);
         buttonEnabled = true;
-
+        col.enabled = true;
     }
 
     public void Hide()
     {
         fadeAnim.FadeOverTime(0);
         buttonEnabled = false;
+        col.enabled = false;
     }
 
     private void OnEnable()

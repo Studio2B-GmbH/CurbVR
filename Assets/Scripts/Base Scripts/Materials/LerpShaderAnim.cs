@@ -10,6 +10,9 @@ public class LerpShaderAnim : MonoBehaviour
     [SerializeField]
     float startLerp;
 
+    [SerializeField]
+    string slotName = "_Lerp";
+
     MeshRenderer rend;
 
     private void Start()
@@ -27,29 +30,29 @@ public class LerpShaderAnim : MonoBehaviour
     {
         StopAllCoroutines();
 
-        if (rend.material.HasProperty("_Lerp"))
+        if (rend.material.HasProperty(slotName))
         {
-            rend.material.SetFloat("_Lerp", amount);
+            rend.material.SetFloat(slotName, amount);
         }
     }
 
     IEnumerator Lerp(float targetLerp)
     {
-        float startLerp = rend.material.HasProperty("_Lerp") ? rend.material.GetFloat("_Lerp") : 1;
+        float startLerp = rend.material.HasProperty(slotName) ? rend.material.GetFloat(slotName) : 1;
 
         for (float i = 0; i < fadeTime; i += Time.deltaTime)
         {
-            if (rend.material.HasProperty("_Lerp"))
+            if (rend.material.HasProperty(slotName))
             {
-                rend.material.SetFloat("_Lerp", Mathf.Lerp(startLerp, targetLerp, i / fadeTime));
+                rend.material.SetFloat(slotName, Mathf.Lerp(startLerp, targetLerp, i / fadeTime));
             }
 
             yield return null;
         }
 
-        if (rend.material.HasProperty("_Lerp"))
+        if (rend.material.HasProperty(slotName))
         {
-            rend.material.SetFloat("_Lerp", targetLerp);
+            rend.material.SetFloat(slotName, targetLerp);
         }
 
     }

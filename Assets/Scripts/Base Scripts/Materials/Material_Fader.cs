@@ -59,10 +59,12 @@ public class Material_Fader : MonoBehaviour
 
     public void StartFade()
     {
-        ResetFade();
-
-        counter = 0;
         fadeEnabled = true;
+    }
+
+    public void PauseFade()
+    {
+        fadeEnabled = false;
     }
 
     public void ResetFade()

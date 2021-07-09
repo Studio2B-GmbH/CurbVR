@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu_Scetch.unity
-    guid: fde6191d71fb7154390c35777d9862b9
+    path: Assets/Scenes/StartScene.unity
+    guid: 6b292fd7601f354478d9fc39174e010c
+  - enabled: 1
+    path: Assets/Scenes/Fire_Scene.unity
+    guid: 5401f2b6abbc5834480c0db471dfd4be
   m_configObjects: {}

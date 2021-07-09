@@ -220,6 +220,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &4472368
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -329,6 +331,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &5879444
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -596,6 +600,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &14768564
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -868,6 +874,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &24264535
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -977,6 +985,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &35719296
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1132,6 +1142,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &39548030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,6 +1239,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &46845198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,6 +1433,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &51462967
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1578,6 +1594,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0.6
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &66557653
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2001,12 +2019,12 @@ MonoBehaviour:
     - serializedVersion: 3
       time: -0.00083581125
       value: 2.354099
-      inSlope: -1.899672
-      outSlope: -1.899672
-      tangentMode: 34
+      inSlope: -5.000846
+      outSlope: -5.000846
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
+      outWeight: 0.033586115
     - serializedVersion: 3
       time: 0.99676514
       value: 0.45898438
@@ -2235,6 +2253,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &97859785
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2390,6 +2410,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &101960170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,6 +2461,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &101960173
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2548,6 +2572,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &102840401
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2736,6 +2762,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &109296851
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2897,6 +2925,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &116513857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,7 +3042,7 @@ Transform:
   m_LocalScale: {x: 32000.01, y: 32000.008, z: 32000.006}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &128989963
 MonoBehaviour:
@@ -3029,6 +3059,8 @@ MonoBehaviour:
   animTime: 8
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!23 &128989965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3125,6 +3157,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &129651471
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3280,6 +3314,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &138377820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3375,6 +3411,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &150569066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3410,6 +3448,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &150569068
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3579,6 +3619,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &158346327
 GameObject:
   m_ObjectHideFlags: 0
@@ -3628,6 +3670,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &158346330
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3737,6 +3781,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &162372090
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3846,6 +3892,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &165640199
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4013,7 +4061,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182402853
 GameObject:
@@ -4405,6 +4453,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &193306315
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4523,20 +4573,20 @@ MonoBehaviour:
     - serializedVersion: 3
       time: -0.0023771673
       value: 2.985733
-      inSlope: -4.1161027
-      outSlope: -4.1161027
+      inSlope: -6.9202423
+      outSlope: -6.9202423
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.081150286
+      outWeight: 0.031419303
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: -2.1665854
-      outSlope: -2.1665854
+      inSlope: -0.9517765
+      outSlope: -0.9517765
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.08519301
+      inWeight: 0.044420388
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -4669,6 +4719,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &207700737
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4907,7 +4959,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: fdc080b11d6834347932c623743ee474,
+          m_ObjectArgument: {fileID: 8300000, guid: 2a66726bbf3b953478af3e3dbd35657d,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -5096,6 +5148,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &214178376
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5251,6 +5305,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &221588457
 GameObject:
   m_ObjectHideFlags: 0
@@ -5346,6 +5402,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &224024341
 GameObject:
   m_ObjectHideFlags: 0
@@ -5613,6 +5671,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &228921803
 GameObject:
   m_ObjectHideFlags: 0
@@ -5772,6 +5832,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &233163059
 GameObject:
   m_ObjectHideFlags: 0
@@ -5896,7 +5958,7 @@ PrefabInstance:
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -5917,11 +5979,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 237039247}
+      objectReference: {fileID: 1500901500}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Hide
+      value: StartTimer
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -5977,6 +6039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Hide
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -6412,6 +6479,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &271634507
 GameObject:
   m_ObjectHideFlags: 0
@@ -6540,6 +6609,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &274728298
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6694,7 +6765,7 @@ PrefabInstance:
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -6715,11 +6786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 546230654}
+      objectReference: {fileID: 796308893}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Hide
+      value: StartTimer
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -6776,6 +6847,21 @@ PrefabInstance:
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Hide
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: defaultTex
+      value: 
+      objectReference: {fileID: 2800000, guid: 76cdb061519ce294fbc9122f32f51a3f, type: 3}
+    - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: highlightTex
+      value: 
+      objectReference: {fileID: 2800000, guid: 2560e54479ccecd4ba159f0cf40dc4f2, type: 3}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6814,7 +6900,7 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -6883,6 +6969,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &283432566
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7006,6 +7094,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &283693094
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7194,6 +7284,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &288159677
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7891,6 +7983,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &304356304
 GameObject:
   m_ObjectHideFlags: 0
@@ -8015,7 +8109,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
@@ -8088,6 +8182,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &309782432
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8197,6 +8293,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &317289185
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8464,6 +8562,8 @@ MonoBehaviour:
   animTime: 3
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &319412582
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8581,7 +8681,7 @@ Transform:
   m_Children:
   - {fileID: 1708056439}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!1 &324903195
 GameObject:
@@ -8726,6 +8826,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &329467515
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8835,6 +8937,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &331735893
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8940,7 +9044,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fb5d8be3910629a4ba5aabaa804d2fb9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb5d8be3910629a4ba5aabaa804d2fb9,
         type: 3}
@@ -9049,6 +9153,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &336794732
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9158,6 +9264,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &338309896
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9267,6 +9375,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &342377712
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9490,6 +9600,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &351369080
 GameObject:
   m_ObjectHideFlags: 0
@@ -9539,6 +9651,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &351369083
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10074,6 +10188,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &369192249
 GameObject:
   m_ObjectHideFlags: 0
@@ -10123,6 +10239,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &369192252
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10312,6 +10430,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &370637070
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10421,6 +10541,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &373929935
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10530,6 +10652,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &378810911
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10639,6 +10763,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &381616974
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10748,6 +10874,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &385172391
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10857,6 +10985,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &387714552
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11040,7 +11170,7 @@ Transform:
   - {fileID: 1841927225}
   - {fileID: 319412580}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &395772551
 GameObject:
@@ -11091,6 +11221,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &395772554
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11180,7 +11312,7 @@ Transform:
   m_Children:
   - {fileID: 5914149794122324439}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!1 &402757084
 GameObject:
@@ -11399,6 +11531,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &416432256
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11746,6 +11880,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &421305235
 GameObject:
   m_ObjectHideFlags: 0
@@ -11859,6 +11995,8 @@ MonoBehaviour:
   animTime: 21
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &425250141
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11968,6 +12106,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &425342877
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12200,6 +12340,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &448980922
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12309,6 +12451,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &449601374
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12561,6 +12705,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &458838199
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12716,6 +12862,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &466787170
 GameObject:
   m_ObjectHideFlags: 0
@@ -12811,6 +12959,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!4 &477826572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 255db21d4f1c694469a8f9014144a166,
@@ -12845,7 +12995,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &480674525
 GameObject:
@@ -12960,6 +13110,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &487107036
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13077,7 +13229,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
@@ -13187,6 +13339,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &497254742
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13406,6 +13560,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &511478102
 GameObject:
   m_ObjectHideFlags: 0
@@ -13455,6 +13611,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &511478105
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13564,6 +13722,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &520059881
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13719,6 +13879,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &525343786
 GameObject:
   m_ObjectHideFlags: 0
@@ -13765,7 +13927,7 @@ Transform:
   - {fileID: 4635103013824133808}
   - {fileID: 1485568325}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &525343788
 BoxCollider:
@@ -13985,7 +14147,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: da0b6cb83b3057d44b6af7b9734b38ab,
+            m_ObjectArgument: {fileID: 8300000, guid: d6e791d878106494bb071d90d19cb50e,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
@@ -14278,6 +14440,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 1.2
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &527317383
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14648,7 +14812,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 27368bdb248db3047b54e344e5d121c1,
+          m_ObjectArgument: {fileID: 8300000, guid: bf142e339096dbe4da51c9a5e2164835,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -14756,6 +14920,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &540640024
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14865,6 +15031,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &543563782
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14974,6 +15142,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &544632546
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15079,7 +15249,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b427f2f34916a4149bec7a73f3df6470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b427f2f34916a4149bec7a73f3df6470,
         type: 3}
@@ -15184,6 +15354,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &552922874
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15279,6 +15451,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &562431165
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15448,6 +15622,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &565122110
 GameObject:
   m_ObjectHideFlags: 0
@@ -15640,6 +15816,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &581463388
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15836,6 +16014,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &587335874
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16124,7 +16304,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f8382f6d23aa10a4d83b739906c050ff,
+          m_ObjectArgument: {fileID: 8300000, guid: a0e0ebdc1861c1840ab57e9ca3472a7d,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -16799,6 +16979,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &620391886
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17113,7 +17295,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &630972072
 MonoBehaviour:
@@ -17406,7 +17588,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 82f8747b92e582148a21a3967c76255b,
+            m_ObjectArgument: {fileID: 8300000, guid: 0c7d3a2d87ec96d4588706ed9db4b56e,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
@@ -17445,7 +17627,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 91f123e0c5628964184b703fe8657e9a,
+            m_ObjectArgument: {fileID: 8300000, guid: 31f04893279c3b140ad48e3c4f70cac7,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
@@ -17664,6 +17846,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &669372624
 GameObject:
   m_ObjectHideFlags: 0
@@ -17692,7 +17876,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &669920993
 GameObject:
@@ -17743,6 +17927,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &669920996
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17858,6 +18044,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &682090310
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18013,6 +18201,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &700808867
 GameObject:
   m_ObjectHideFlags: 0
@@ -18062,6 +18252,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &700808870
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18217,6 +18409,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -18497,6 +18691,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &728457507
 GameObject:
   m_ObjectHideFlags: 0
@@ -18768,6 +18964,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &733845468
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18952,7 +19150,7 @@ Transform:
   m_Children:
   - {fileID: 993622835}
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 57.516003, z: 0}
 --- !u!1 &740968881
 GameObject:
@@ -19082,6 +19280,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &756195344
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19191,6 +19391,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &758149583
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19725,7 +19927,7 @@ MonoBehaviour:
   m_isCullingEnabled: 0
   m_horizontalMapping: 0
   m_verticalMapping: 0
-  m_uvLineOffset: 0
+  m_uvLineOffset: 14.18
   m_geometrySortingOrder: 0
   m_IsTextObjectScaleStatic: 0
   m_VertexBufferAutoSizeReduction: 1
@@ -20137,12 +20339,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_MethodName: FadeToFOV
-          m_Mode: 4
+        - m_Target: {fileID: 2104869972}
+          m_MethodName: PlayAudio
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 8300000, guid: 13c910d399880ab4f9697ddd3e5df5ed,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 120
             m_StringArgument: 
@@ -20160,7 +20363,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 1f30b28fc121c6e4692ef2c6a5e864f6,
+            m_ObjectArgument: {fileID: 8300000, guid: ba33a6b2218800344bf3a1036abf34ad,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
@@ -20171,22 +20374,11 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 19
+  - eventStart: 15
     activated: 0
     OnEventStart:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 450464295}
-          m_MethodName: Pause
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls:
@@ -20228,12 +20420,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 450464295}
-          m_MethodName: Play
-          m_Mode: 1
+        - m_Target: {fileID: 450464294}
+          m_MethodName: PlayAudio
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 8300000, guid: 5b9d0f73cf3f57e4ba697cc9bb21c3a3,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -20284,7 +20477,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &796601059
 GameObject:
@@ -20381,6 +20574,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &800635750
 GameObject:
   m_ObjectHideFlags: 0
@@ -20476,6 +20671,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &806279376
 GameObject:
   m_ObjectHideFlags: 0
@@ -20511,6 +20708,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0.6
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &806279378
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -20792,6 +20991,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &812600047
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -20901,6 +21102,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &812996448
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -21074,6 +21277,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &816319623
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -21293,6 +21498,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &827517799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3537514716490224057, guid: f90958ca9e821514696ee958b6dd92c0,
@@ -21408,6 +21615,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &829455726
 GameObject:
   m_ObjectHideFlags: 0
@@ -21521,6 +21730,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &833304788
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -21676,6 +21887,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &840657327
 GameObject:
   m_ObjectHideFlags: 0
@@ -21818,6 +22031,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &852526073
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22066,6 +22281,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &875315906
 GameObject:
   m_ObjectHideFlags: 0
@@ -22161,6 +22378,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &875628075
 GameObject:
   m_ObjectHideFlags: 0
@@ -22210,6 +22429,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &875628078
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22319,6 +22540,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &875798543
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22571,6 +22794,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &888028811
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22726,6 +22951,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &895774956
 GameObject:
   m_ObjectHideFlags: 0
@@ -22944,6 +23171,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &909801742
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23049,7 +23278,7 @@ Transform:
   m_Children:
   - {fileID: 1702668757}
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: -126.089005, z: 0}
 --- !u!1 &918821116
 GameObject:
@@ -23146,6 +23375,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &918824132
 GameObject:
   m_ObjectHideFlags: 0
@@ -23241,6 +23472,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1001 &930767246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23441,6 +23674,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &932898463
 GameObject:
   m_ObjectHideFlags: 0
@@ -23668,6 +23903,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &938255039
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23777,6 +24014,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &938358650
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23985,6 +24224,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &944055529
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -24140,6 +24381,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &953384309
 GameObject:
   m_ObjectHideFlags: 0
@@ -24235,6 +24478,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &955215224
 GameObject:
   m_ObjectHideFlags: 0
@@ -24330,6 +24575,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &958560556
 GameObject:
   m_ObjectHideFlags: 0
@@ -24447,6 +24694,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &960863190
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -24602,6 +24851,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &964779238
 GameObject:
   m_ObjectHideFlags: 0
@@ -24651,6 +24902,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &964779241
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25076,6 +25329,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &979498705
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25185,6 +25440,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &980213163
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25340,6 +25597,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &985367711
 GameObject:
   m_ObjectHideFlags: 0
@@ -25882,6 +26141,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &997888941
 GameObject:
   m_ObjectHideFlags: 0
@@ -25931,6 +26192,8 @@ MonoBehaviour:
   animTime: 24
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &997888944
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26086,6 +26349,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1002702806
 GameObject:
   m_ObjectHideFlags: 0
@@ -26121,6 +26386,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1002702808
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26494,7 +26761,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: e5471b169f1daec4e95534f41a81b333,
+          m_ObjectArgument: {fileID: 8300000, guid: ac2ac22defbe52b439470aaa74678764,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -26618,6 +26885,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1024673812
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26806,6 +27075,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1027228738
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26979,6 +27250,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1029704729
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -27167,6 +27440,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1036719949
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -27276,6 +27551,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1040775696
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -27431,6 +27708,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1042595571
 GameObject:
   m_ObjectHideFlags: 0
@@ -27526,6 +27805,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1044234486
 GameObject:
   m_ObjectHideFlags: 0
@@ -27575,6 +27856,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1044234489
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -27763,6 +28046,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1046731659
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -27920,6 +28205,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1053471945
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28075,6 +28362,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1059749948
 GameObject:
   m_ObjectHideFlags: 0
@@ -28124,6 +28413,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1059749951
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28281,6 +28572,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1067967745
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28628,6 +28921,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1098998321
 GameObject:
   m_ObjectHideFlags: 0
@@ -28677,6 +28972,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1098998324
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28880,6 +29177,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1103963126
 GameObject:
   m_ObjectHideFlags: 0
@@ -28993,6 +29292,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1112203624
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -29311,6 +29612,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1120467233
 GameObject:
   m_ObjectHideFlags: 0
@@ -29360,6 +29663,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1120467236
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -29469,6 +29774,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1127164315
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -29751,6 +30058,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1143591766
 GameObject:
   m_ObjectHideFlags: 0
@@ -29800,6 +30109,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1143591769
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -29955,6 +30266,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1149257000
 GameObject:
   m_ObjectHideFlags: 0
@@ -30004,6 +30317,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1149257003
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -30303,6 +30618,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1180354046
 GameObject:
   m_ObjectHideFlags: 0
@@ -30352,6 +30669,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1180354049
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -30619,6 +30938,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1187841575
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -30774,6 +31095,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1190505792
 GameObject:
   m_ObjectHideFlags: 0
@@ -31096,6 +31419,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1200736736
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -31258,22 +31583,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.004992828
-      value: 2.5534477
-      inSlope: -2.5446486
-      outSlope: -2.5446486
-      tangentMode: 34
+      time: -0.0014752569
+      value: 1.5036174
+      inSlope: -4.24787
+      outSlope: -4.24787
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
+      outWeight: 0.063714944
     - serializedVersion: 3
       time: 1
       value: 0.021504074
-      inSlope: -2.5446486
-      outSlope: -2.5446486
-      tangentMode: 34
+      inSlope: -1.3770591
+      outSlope: -1.3770591
+      tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.056338146
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -31327,6 +31652,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1226696439
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -31436,6 +31763,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1228581030
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -31545,6 +31874,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1230537517
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -31746,6 +32077,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1239811949
 GameObject:
   m_ObjectHideFlags: 0
@@ -31932,7 +32265,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 79ff09259bccc43488456c1a454a6d9a,
+          m_ObjectArgument: {fileID: 8300000, guid: e55515524e1db494a81e17d00b41c26f,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -32069,6 +32402,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1251347643
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32362,6 +32697,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1279466685
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32596,6 +32933,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1294191714
 GameObject:
   m_ObjectHideFlags: 0
@@ -32882,6 +33221,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1308874758
 GameObject:
   m_ObjectHideFlags: 0
@@ -32931,6 +33272,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1308874761
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33119,6 +33462,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1309468400
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33274,6 +33619,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1312690166
 GameObject:
   m_ObjectHideFlags: 0
@@ -33323,6 +33670,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1312690169
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33432,6 +33781,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1313625417
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33587,6 +33938,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1321567423
 GameObject:
   m_ObjectHideFlags: 0
@@ -33809,6 +34162,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1338540706
 GameObject:
   m_ObjectHideFlags: 0
@@ -34194,6 +34549,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0.6
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1354263521
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34317,6 +34674,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1354840418
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34474,6 +34833,16 @@ PrefabInstance:
       propertyPath: OnPointerPressDown.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: defaultTex
+      value: 
+      objectReference: {fileID: 2800000, guid: 2b4b91e27c0889c439a5326393c1e481, type: 3}
+    - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: highlightTex
+      value: 
+      objectReference: {fileID: 2800000, guid: d41fc168342b1334d9357f4408ab6d7c, type: 3}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34512,7 +34881,7 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -34667,7 +35036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbsParent: {fileID: 919132149111005057}
-  animTime: 15
+  animTime: 8
   velocity:
     serializedVersion: 2
     m_Curve:
@@ -34763,7 +35132,7 @@ Transform:
   m_Children:
   - {fileID: 605592369}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1365635825
 GameObject:
@@ -34814,6 +35183,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1365635828
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35002,6 +35373,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1367100671
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35175,6 +35548,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1373088300
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35284,6 +35659,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1375051845
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35472,6 +35849,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1387913535
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35581,6 +35960,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1389256310
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35686,7 +36067,7 @@ Transform:
   - {fileID: 3513271}
   - {fileID: 1321567424}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1394362119
 GameObject:
@@ -35783,6 +36164,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1400759845
 GameObject:
   m_ObjectHideFlags: 0
@@ -35818,6 +36201,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 1.8
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1400759847
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36020,6 +36405,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1409385184
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36129,6 +36516,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1416451387
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36317,6 +36706,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1421324802
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36702,6 +37093,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1427933657
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36984,6 +37377,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1440033173
 GameObject:
   m_ObjectHideFlags: 0
@@ -37938,6 +38333,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1443720741
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38047,6 +38444,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1446015972
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38156,6 +38555,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1446135553
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38265,6 +38666,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1450234835
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38374,6 +38777,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1453132570
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38551,6 +38956,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1455264963
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38706,6 +39113,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1472187494
 GameObject:
   m_ObjectHideFlags: 0
@@ -39022,6 +39431,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1486047695
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39267,6 +39678,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1490266269
 GameObject:
   m_ObjectHideFlags: 0
@@ -39573,6 +39986,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1496974028
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39775,6 +40190,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1499122600
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39963,9 +40380,20 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: e401e5d9577f47d4990ffb9396073bbd,
+            m_ObjectArgument: {fileID: 8300000, guid: 31fd5badcd09527478470beb54ae5920,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2104869972}
+          m_MethodName: StopAudio
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -39974,7 +40402,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 22
+  - eventStart: 25
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -39993,7 +40421,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 37
+  - eventStart: 33
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -40016,7 +40444,18 @@ MonoBehaviour:
     activated: 0
     OnEventStart:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1854758377}
+          m_MethodName: ScaleOverTimeToOriginalSize
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
@@ -40048,7 +40487,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1505076858
 PrefabInstance:
@@ -40239,6 +40678,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1506349954
 GameObject:
   m_ObjectHideFlags: 0
@@ -40334,6 +40775,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1506826872
 GameObject:
   m_ObjectHideFlags: 0
@@ -40447,6 +40890,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1507465185
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40556,6 +41001,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1508267272
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40665,6 +41112,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1511870138
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40774,6 +41223,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1513765655
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40962,6 +41413,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1517627405
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41117,6 +41570,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1522194161
 GameObject:
   m_ObjectHideFlags: 0
@@ -41212,6 +41667,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1524661170
 GameObject:
   m_ObjectHideFlags: 0
@@ -41386,6 +41843,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1534432164
 GameObject:
   m_ObjectHideFlags: 0
@@ -41435,6 +41894,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1534432167
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41654,6 +42115,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1543093120
 GameObject:
   m_ObjectHideFlags: 0
@@ -41782,6 +42245,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1543696869
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41970,6 +42435,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1549421179
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42079,6 +42546,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1552988300
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42267,6 +42736,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1561676151
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42552,7 +43023,7 @@ Transform:
   m_Children:
   - {fileID: 82329616}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581529311
 GameObject:
@@ -42864,6 +43335,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1599270770
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -43131,6 +43604,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1611322951
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -43418,6 +43893,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1625558335
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -43527,6 +44004,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1625809920
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -43682,6 +44161,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1628245371
 GameObject:
   m_ObjectHideFlags: 0
@@ -43777,6 +44258,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1634827920
 GameObject:
   m_ObjectHideFlags: 0
@@ -44020,6 +44503,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1637659880
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -44208,6 +44693,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1640907440
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -44317,6 +44804,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1645611164
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -44536,6 +45025,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1662832106
 GameObject:
   m_ObjectHideFlags: 0
@@ -44585,6 +45076,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1662832109
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -44883,6 +45376,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1001 &1677017066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45051,6 +45546,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1678734127
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45352,6 +45849,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1684095705
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45461,6 +45960,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1687710652
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45802,6 +46303,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1705005940
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46208,7 +46711,7 @@ Transform:
   m_Children:
   - {fileID: 1215813732}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!1 &1740505168
 GameObject:
@@ -46255,7 +46758,7 @@ Transform:
   m_Children:
   - {fileID: 622021324}
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 57.516003, z: 0}
 --- !u!1 &1742680650
 GameObject:
@@ -46306,6 +46809,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1742680653
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46508,6 +47013,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1746491627
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46663,6 +47170,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1757708949
 GameObject:
   m_ObjectHideFlags: 0
@@ -46712,6 +47221,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1757708952
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46821,6 +47332,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1760238814
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46930,6 +47443,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1763135542
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -47085,6 +47600,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1772407918
 GameObject:
   m_ObjectHideFlags: 0
@@ -47134,6 +47651,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1772407921
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -47229,6 +47748,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1777248703
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -47398,6 +47919,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1790122987
 GameObject:
   m_ObjectHideFlags: 0
@@ -47455,7 +47978,7 @@ Transform:
   m_Children:
   - {fileID: 1263197650}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!1 &1792998757
 GameObject:
@@ -47506,6 +48029,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1792998760
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -47668,7 +48193,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f90958ca9e821514696ee958b6dd92c0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f90958ca9e821514696ee958b6dd92c0,
         type: 3}
@@ -48182,6 +48707,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1810737704
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -48289,7 +48816,7 @@ Transform:
   - {fileID: 6446310547739414173}
   - {fileID: 4929839141901787894}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819597434
 GameObject:
@@ -48386,6 +48913,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1824804007
 GameObject:
   m_ObjectHideFlags: 0
@@ -48421,6 +48950,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 0.6
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1824804009
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -48596,6 +49127,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1001 &1832035237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48897,6 +49430,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1838544866
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -48992,6 +49527,8 @@ MonoBehaviour:
   animTime: 1.5
   startSize: 0
   delay: 2.4
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1841927222
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49397,6 +49934,8 @@ MonoBehaviour:
   animTime: 6
   startSize: 100
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!114 &1842523975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49412,6 +49951,8 @@ MonoBehaviour:
   animTime: 6
   startSize: 100
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!114 &1842523976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49427,6 +49968,8 @@ MonoBehaviour:
   animTime: 6
   startSize: 100
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!114 &1842523977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49442,6 +49985,8 @@ MonoBehaviour:
   animTime: 6
   startSize: 100
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!114 &1842523978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49457,6 +50002,8 @@ MonoBehaviour:
   animTime: 6
   startSize: 100
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!114 &1842523979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49472,6 +50019,8 @@ MonoBehaviour:
   animTime: 6
   startSize: 100
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!64 &1842523998
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49742,6 +50291,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1854616687
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49834,7 +50385,7 @@ Transform:
   m_LocalScale: {x: 110000.04, y: 110000.03, z: 110000.02}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1854758377
 MonoBehaviour:
@@ -49851,6 +50402,8 @@ MonoBehaviour:
   animTime: 30
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1854758378
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49960,6 +50513,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1855277380
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -50091,6 +50646,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1862489054
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -50200,6 +50757,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1864615966
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -50575,6 +51134,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1879187112
 GameObject:
   m_ObjectHideFlags: 0
@@ -50620,7 +51181,7 @@ Transform:
   m_Children:
   - {fileID: 2137692007}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 57.516003, z: 0}
 --- !u!1 &1894863515
 GameObject:
@@ -50829,6 +51390,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1919389502
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51221,6 +51784,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1951237737
 GameObject:
   m_ObjectHideFlags: 0
@@ -51316,6 +51881,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1956128618
 GameObject:
   m_ObjectHideFlags: 0
@@ -51411,6 +51978,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1956133815
 GameObject:
   m_ObjectHideFlags: 0
@@ -51664,6 +52233,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &1965581675
 GameObject:
   m_ObjectHideFlags: 0
@@ -51777,6 +52348,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1967258007
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52078,6 +52651,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1973674281
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52187,6 +52762,8 @@ MonoBehaviour:
   animTime: 13
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1974444218
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52296,6 +52873,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1983471904
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52593,7 +53172,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1990630134
 GameObject:
@@ -52719,7 +53298,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 12a7976f6033a614fb383b67bc981187,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12a7976f6033a614fb383b67bc981187,
         type: 3}
@@ -52857,6 +53436,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2002821026
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53175,6 +53756,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &2010201621
 GameObject:
   m_ObjectHideFlags: 0
@@ -53272,6 +53855,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2016628661
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53576,6 +54161,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2044434608
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53685,6 +54272,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2048539414
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53794,6 +54383,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2049585859
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53949,6 +54540,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &2057184583
 GameObject:
   m_ObjectHideFlags: 0
@@ -54149,7 +54742,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 30046eaf881d9504f9e22d370845ac62,
+          m_ObjectArgument: {fileID: 8300000, guid: 9592dd628ed14c747818b04fd8f72c2c,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -54574,7 +55167,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 02dad74c0915c95419171688f13aa486,
+          m_ObjectArgument: {fileID: 8300000, guid: 784cf923de6be744f9162aeeaea733fb,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -54820,6 +55413,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!1 &2091850967
 GameObject:
   m_ObjectHideFlags: 0
@@ -55044,6 +55639,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2093439443
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -55153,6 +55750,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2103000339
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -55213,6 +55812,149 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103000336}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2104869971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2104869974}
+  - component: {fileID: 2104869973}
+  - component: {fileID: 2104869972}
+  m_Layer: 0
+  m_Name: Ambience
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2104869972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104869971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ca83f9f3889794991bcb8c31afe29b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 2104869973}
+  soundClip: {fileID: 0}
+  startSecond: 0
+--- !u!82 &2104869973
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104869971}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2104869974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104869971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5143018, y: 4.0554247, z: -6.2137966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2108220534
 GameObject:
   m_ObjectHideFlags: 0
@@ -55262,6 +56004,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2108220537
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -55367,6 +56111,18 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 30
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 450464294}
+          m_MethodName: PlayAudio
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 08644e66fb8d9144aa8b4f9dcdcc191f,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -55522,7 +56278,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 99f03ce87e0fd2a43b7f1ae182c09e0f,
+            m_ObjectArgument: {fileID: 8300000, guid: 4a52b303cd6106f44981ae965125ab7d,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
@@ -55538,6 +56294,18 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 120
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2104869972}
+          m_MethodName: PlayAudio
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 11146eb4957a55f488ab2cf02dd9b6ab,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -55682,7 +56450,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113449145
 GameObject:
@@ -55733,6 +56501,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2113449148
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -56046,6 +56816,8 @@ MonoBehaviour:
   animTime: 3
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!82 &2130428639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -56191,6 +56963,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2131763954
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -56379,6 +57153,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2144467979
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -56534,6 +57310,8 @@ MonoBehaviour:
   animTime: 4
   startSize: 0
   delay: 0
+  playSpawnOrbAnimation: 0
+  spawnOrbPrefab: {fileID: 0}
 --- !u!23 &10453987189566837
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -56951,7 +57729,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 7e9a4c754446f374ba30e933f0ed8464,
+          m_ObjectArgument: {fileID: 8300000, guid: 0bb057da3fd0b694b8c89d6ae1fcef72,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -57377,7 +58155,7 @@ Transform:
   m_Children:
   - {fileID: 899496002166802268}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450653651322171
 Transform:
@@ -57392,7 +58170,7 @@ Transform:
   m_Children:
   - {fileID: 6320845237791064431}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!33 &580159941275167448
 MeshFilter:
@@ -57793,7 +58571,7 @@ MonoBehaviour:
           m_MethodName: PlayAudio
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 2c96cea03046f994bbe66f369b1e8073,
+            m_ObjectArgument: {fileID: 8300000, guid: 56dee34b902feeb4eb8981a1dbf04292,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
@@ -59857,7 +60635,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 39102a734dfe201438c14747d399ce89,
+          m_ObjectArgument: {fileID: 8300000, guid: be78a1cb1cec0224bb1931701041d19b,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -60302,7 +61080,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: be08e0ee8af378a4ba3986df00bafb25,
+          m_ObjectArgument: {fileID: 8300000, guid: e1a809b5325494b4cab4b5944fe474e0,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -62035,7 +62813,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 9ef58aebb47fd204e9ab2fb0318ac0d0,
+          m_ObjectArgument: {fileID: 8300000, guid: b9726ef88b40e3a4c95605ce7650827e,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -68588,7 +69366,7 @@ MonoBehaviour:
         m_MethodName: PlayAudio
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: e9d7fe5b1c579f5409c9a8e8cc72166b,
+          m_ObjectArgument: {fileID: 8300000, guid: 651b2de400b8580409c7619e0ff68834,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0

@@ -69,7 +69,12 @@ public class Button3D : MonoBehaviour
         }
 
         if (startHidden)
+        {
             fadeAnim.FadeInstantly(0);
+            buttonEnabled = false;
+            col.enabled = false;
+        }
+           
 
         else
             fadeAnim.FadeInstantly(1);
@@ -121,13 +126,13 @@ public class Button3D : MonoBehaviour
         }
     }
 
-    void PointerPressStay(RaycastHit hit)
-    {
-        if (hit.transform.gameObject == this.gameObject && buttonEnabled)
-        {
-            OnPointerStayPressed.Invoke(hit);
-        }
-    }
+    //void PointerPressStay(RaycastHit hit)
+    //{
+    //    if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+    //    {
+    //        OnPointerStayPressed.Invoke(hit);
+    //    }
+    //}
 
     void PointerPressUp(RaycastHit hit)
     {
@@ -178,7 +183,7 @@ public class Button3D : MonoBehaviour
         Pointer_Controller.OnExitGameObject += PointerExit;
         Pointer_Controller.OnStayGameObject += PointerStay;
         Pointer_Controller.OnPressedGameObjectDown += PointerPressDown;
-        Pointer_Controller.OnPressedStayGameObject += PointerPressStay;
+        //Pointer_Controller.OnPressedStayGameObject += PointerPressStay;
         Pointer_Controller.OnPressedGameObjectUp += PointerPressUp;
     }
 
@@ -188,6 +193,6 @@ public class Button3D : MonoBehaviour
         Pointer_Controller.OnExitGameObject -= PointerExit;
         Pointer_Controller.OnStayGameObject -= PointerStay;
         Pointer_Controller.OnPressedGameObjectDown -= PointerPressDown;
-        Pointer_Controller.OnPressedStayGameObject += PointerPressStay;
+        //Pointer_Controller.OnPressedStayGameObject += PointerPressStay;
     }
 }

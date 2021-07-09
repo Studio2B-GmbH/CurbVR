@@ -13,7 +13,6 @@ public class FadeScene : MonoBehaviour
     public UnityEngine.Events.UnityEvent OnFadedInComplete;
 
     GameObject fadeSphere;
-    GameObject fadeSphereNoPP;
     float deltaTimeForThisScript;
     bool isInFade;
 
@@ -41,10 +40,7 @@ public class FadeScene : MonoBehaviour
             Instance = this;
         }
 
-        fadeSphere = this.transform.gameObject;
-        fadeSphereNoPP = transform.GetChild(0).gameObject;
-
-        
+        fadeSphere = this.transform.gameObject;       
 
     }
 
@@ -53,11 +49,8 @@ public class FadeScene : MonoBehaviour
         if (fadeInOnSceneStart)
         {
             Material fadeSphereMat = fadeSphere.GetComponent<Renderer>().material;
-            Material fadeSphereMatNoPP = fadeSphereNoPP.GetComponent<Renderer>().material;
             fadeSphere.GetComponent<MeshRenderer>().enabled = true;
-            fadeSphereNoPP.GetComponent<MeshRenderer>().enabled = true;
             fadeSphereMat.SetColor("_Color", new Color(0, 0, 0, 1));
-            fadeSphereMatNoPP.SetColor("_Color", new Color(0, 0, 0, 1));
         }
 
     }
@@ -96,24 +89,19 @@ public class FadeScene : MonoBehaviour
 
         isInFade = true;
         Material fadeSphereMat = fadeSphere.GetComponent<Renderer>().material;
-        Material fadeSphereMatNoPP = fadeSphereNoPP.GetComponent<Renderer>().material;
         fadeSphere.GetComponent<MeshRenderer>().enabled = true;
-        fadeSphereNoPP.GetComponent<MeshRenderer>().enabled = true;
 
         if (fadeToBlack)
         {
             fadeSphereMat.SetColor("_Color", new Color(0, 0, 0, 0));
-            fadeSphereMatNoPP.SetColor("_Color", new Color(0, 0, 0, 0));
 
             for (float i = 0; i <= 1; i += defaultFadeSpeed * deltaTimeForThisScript)
             {
                 fadeSphereMat.SetColor("_Color", new Color(0, 0, 0, i));
-                fadeSphereMatNoPP.SetColor("_Color", new Color(0, 0, 0, i));
                 yield return null;
             }
 
             fadeSphereMat.SetColor("_Color", new Color(0, 0, 0, 1));
-            fadeSphereMatNoPP.SetColor("_Color", new Color(0, 0, 0, 1));
 
             if (scene != "null")
             {
@@ -138,20 +126,16 @@ public class FadeScene : MonoBehaviour
         if (!fadeToBlack)
         {
             fadeSphereMat.SetColor("_Color", new Color(0, 0, 0, 1));
-            fadeSphereMatNoPP.SetColor("_Color", new Color(0, 0, 0, 1));
 
             for (float i = 1; i >= 0; i -= defaultFadeSpeed * deltaTimeForThisScript)
             {
                 fadeSphereMat.SetColor("_Color", new Color(0, 0, 0, i));
-                fadeSphereMatNoPP.SetColor("_Color", new Color(0, 0, 0, i));
                 yield return null;
             }
 
             fadeSphereMat.SetColor("_Color", new Color(0, 0, 0, 0));
-            fadeSphereMatNoPP.SetColor("_Color", new Color(0, 0, 0, 0));
 
             fadeSphere.GetComponent<MeshRenderer>().enabled = false;
-            fadeSphereNoPP.GetComponent<MeshRenderer>().enabled = false;
 
             OnFadedInComplete.Invoke();
         }

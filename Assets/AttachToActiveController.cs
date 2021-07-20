@@ -7,6 +7,9 @@ public class AttachToActiveController : MonoBehaviour
     [SerializeField]
     ControllerManager controllerManager;
 
+    [SerializeField]
+    bool attachToInactiveController;
+
     private void Start()
     {
         controllerManager = ControllerManager.Instance;
@@ -15,9 +18,24 @@ public class AttachToActiveController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(controllerManager.GetController().transform != transform.parent)
+        if (attachToInactiveController)
         {
-            transform.parent = controllerManager.GetController().transform;
+            if (controllerManager.GetActiveController().transform != transform.parent)
+            {
+                transform.parent = controllerManager.GetActiveController().transform;
+            }
         }
+
+        else
+        {
+            if (controllerManager.GetInactiveController().transform != transform.parent)
+            {
+                transform.parent = controllerManager.GetInactiveController().transform;
+            }
+        }
+
+        transform.localPosition = Vector3.zero;
+        transform.localScale = Vector3.one;
+
     }
 }

@@ -102,9 +102,11 @@ public class Material_Fader : MonoBehaviour
                     StartCoroutine(fadeOut(fO));
                 }
             }
+
+            counter += Time.deltaTime;
         }
 
-        counter += Time.deltaTime;
+        
     }
 
     IEnumerator fadeIn(FadeObject fObject)

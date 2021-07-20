@@ -88,58 +88,81 @@ public class Button3D : MonoBehaviour
 
     void PointerEnter(RaycastHit hit)
     {
-        if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+        if (this != null)
         {
-            OnPointerEnter.Invoke(hit);
+            if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+            {
+                OnPointerEnter.Invoke(hit);
 
-            transform.localScale = originalSize * 1.1f;
+                transform.localScale = originalSize * 1.1f;
 
-            if (highlightTex != null)
-                rend.material.mainTexture = highlightTex;
+                if (highlightTex != null)
+                    rend.material.mainTexture = highlightTex;
+            }
         }
+        
     }
 
     void PointerExit(RaycastHit hit)
     {
-        if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+        if (this != null)
         {
-            OnPointerExit.Invoke(hit);
+            if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+            {
+                OnPointerExit.Invoke(hit);
 
-            transform.localScale = originalSize;
+                transform.localScale = originalSize;
 
-            rend.material.mainTexture = defaultTex;
+                rend.material.mainTexture = defaultTex;
+            }
         }
+        
     }
     void PointerStay(RaycastHit hit)
     {
-        if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+        if(this != null)
         {
-            OnPointerStay.Invoke(hit);
+            if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+            {
+                OnPointerStay.Invoke(hit);
+            }
         }
+        
     }
 
     void PointerPressDown(RaycastHit hit)
     {
-        if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+        if(this != null)
         {
-            OnPointerPressDown.Invoke(hit);
-        }
+            if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+            {
+                OnPointerPressDown.Invoke(hit);
+            }
+        }       
     }
 
-    //void PointerPressStay(RaycastHit hit)
-    //{
-    //    if (hit.transform.gameObject == this.gameObject && buttonEnabled)
-    //    {
-    //        OnPointerStayPressed.Invoke(hit);
-    //    }
-    //}
+    void PointerPressStay(RaycastHit hit)
+    {
+        if (this != null)
+        {
+            if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+            {
+                OnPointerStayPressed.Invoke(hit);
+            }
+        }
+            
+    }
 
     void PointerPressUp(RaycastHit hit)
     {
-        if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+        if(this != null)
         {
-            OnPointerPressUp.Invoke(hit);
+            if (hit.transform.gameObject == this.gameObject && buttonEnabled)
+            {
+                OnPointerPressUp.Invoke(hit);
+            }
         }
+        
     }
 
     //Inactive means the button is grayed out

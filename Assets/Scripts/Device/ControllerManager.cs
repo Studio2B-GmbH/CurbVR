@@ -14,6 +14,7 @@ public class ControllerManager : MonoBehaviour
     ControllerActivator oculusControllerRight;
 
     GameObject activeController;
+    GameObject inactiveController;
 
     bool rightSideActivated;
 
@@ -44,6 +45,7 @@ public class ControllerManager : MonoBehaviour
         if(DeviceManager.Instance.GetPlatform() == DeviceManager.Platform.PCVRDisabled)
         {
             activeController = oculusControllerRight.gameObject;
+            inactiveController = oculusControllerLeft.gameObject;
             oculusControllerLeft.Deactivate();
             oculusControllerRight.Activate();
         }
@@ -80,6 +82,7 @@ public class ControllerManager : MonoBehaviour
             oculusControllerLeft.Activate();
             oculusControllerRight.Deactivate();
             activeController = oculusControllerLeft.gameObject;
+            inactiveController = oculusControllerRight.gameObject;
 
         }
 
@@ -90,6 +93,7 @@ public class ControllerManager : MonoBehaviour
             oculusControllerLeft.Deactivate();
             oculusControllerRight.Activate();
             activeController = oculusControllerRight.gameObject;
+            inactiveController = oculusControllerLeft.gameObject;
         }
 
         if(DeviceManager.Instance.GetPlatform() == DeviceManager.Platform.PCVRDisabled)
@@ -99,9 +103,14 @@ public class ControllerManager : MonoBehaviour
         }
     }
 
-    public GameObject GetController()
+    public GameObject GetActiveController()
     {
         return activeController;
+    }
+
+    public GameObject GetInactiveController()
+    {
+        return inactiveController;
     }
 
     public bool RightSideActivated()

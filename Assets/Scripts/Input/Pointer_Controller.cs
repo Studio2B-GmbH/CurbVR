@@ -85,7 +85,7 @@ public class Pointer_Controller : MonoBehaviour
     {
         didRayHit = false;
 
-        controllerAnchor = ControllerManager.Instance.GetController();
+        controllerAnchor = ControllerManager.Instance.GetActiveController();
         hmd = DeviceManager.Instance.GetHead();
 
         transform.position = controllerAnchor.transform.position;

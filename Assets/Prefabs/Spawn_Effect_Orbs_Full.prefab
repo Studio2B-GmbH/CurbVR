@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2902262171418177448}
   - component: {fileID: 2902262171418177449}
   m_Layer: 0
-  m_Name: Spawn_Effect_Orb
+  m_Name: Spawn_Effect_Orbs_Full
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -348,7 +348,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.3
       minScalar: 1
       maxCurve:
         serializedVersion: 2

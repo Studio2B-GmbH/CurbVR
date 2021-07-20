@@ -47,12 +47,24 @@ public class Fade_Anim : MonoBehaviour
             {
                 Color col = rend.material.GetColor("_Color");
                 rend.material.SetColor("_Color", new Color(col.r, col.g, col.b, amount));
+
+                if (amount < 0.1)
+                    rend.enabled = false;
+
+                else
+                    rend.enabled = true;
             }            
         }
 
         foreach (TextMeshPro tmp in tmps)
         {
             tmp.alpha = amount;
+
+            if (amount < 0.1)
+                tmp.enabled = false;
+
+            else
+                tmp.enabled = true;
         }
     }
 
@@ -70,12 +82,14 @@ public class Fade_Anim : MonoBehaviour
             {
                 startCols[i] = rends[i].material.GetColor("_Color");
                 targetCols[i] = new Color(startCols[i].r, startCols[i].g, startCols[i].b, fadeAmount);
+                rends[i].enabled = true;
             }
         }
 
         for (int i = 0; i < tmps.Length; i++)
         {
             startTMPAlphas[i] = tmps[i].alpha;
+            tmps[i].enabled = true;
         }
 
         for (float i = 0; i < fadeTime; i += Time.deltaTime)
@@ -101,12 +115,22 @@ public class Fade_Anim : MonoBehaviour
             if (rends[i].material.HasProperty("_Color"))
             {
                 rends[i].material.SetColor("_Color", targetCols[i]);
+
+                if (fadeAmount < 0.1)
+                {
+                    rends[i].enabled = false;
+                }
             }
         }
 
         for (int i = 0; i < tmps.Length; i++)
         {
             tmps[i].alpha = fadeAmount;
+
+            if (fadeAmount < 0.1)
+            {
+                tmps[i].enabled = false;
+            }
         }
 
     }

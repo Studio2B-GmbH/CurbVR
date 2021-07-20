@@ -10,12 +10,6 @@ public class Scaling : MonoBehaviour
     float[] heights;
 
     [SerializeField]
-    bool animationEnabled;
-
-    [SerializeField]
-    bool scaleInSteps;
-
-    [SerializeField]
     float animationTime;
 
     [SerializeField]
@@ -39,7 +33,7 @@ public class Scaling : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScaleUp();
+        //ScaleUp();
     }
 
     // Update is called once per frame
@@ -47,20 +41,7 @@ public class Scaling : MonoBehaviour
     {
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.All) || Input.GetKeyDown(KeyCode.S))
         {
-            if (animationEnabled)
-            {
-                StartCoroutine(scaleUpAnimated());
-            }
-
-            else if (scaleInSteps)
-            {
-                StartCoroutine(scaleUpInSteps());
-            }
-
-            else
-            {
-                ScaleUp();
-            }
+            StartCoroutine(scaleUpAnimated(scaleCounter));
         }
 
         if (activateHeightCounter)
@@ -69,68 +50,49 @@ public class Scaling : MonoBehaviour
         }
     }
 
-    public void ScaleUp()
+    //public void ScaleUp()
+    //{
+    //    transform.position = new Vector3(transform.position.x, heights[scaleCounter], transform.position.z);
+
+    //    float scaleMultiplier = (1f / 1.8f) * heights[scaleCounter];
+    //    transform.localScale = new Vector3(scaleMultiplier, scaleMultiplier, scaleMultiplier);
+
+    //}
+
+    public void ScaleToStepAnimated(int step)
     {
-        transform.position = new Vector3(transform.position.x, heights[scaleCounter], transform.position.z);
-
-        float scaleMultiplier = (1f / 1.8f) * heights[scaleCounter];
-        transform.localScale = new Vector3(scaleMultiplier, scaleMultiplier, scaleMultiplier);
-
-        scaleCounter++;
+        if(step != scaleCounter)
+        {
+            StartCoroutine(scaleUpAnimated(step));
+        }
     }
 
     public void ScaleUpAnimated()
     {
-            StartCoroutine(scaleUpAnimated());
-    }
-
-    IEnumerator scaleUpAnimated()
-    {
-        if (animationLock)
-            yield break;
-
-        OnScaleStart.Invoke();
-
-        animationLock = true;
-
-        Vector3 oldPos = transform.position;
-        Vector3 newPos = new Vector3(transform.position.x, heights[scaleCounter], transform.position.z);
-
-        Vector3 oldScale = transform.localScale;
-        float scaleMultiplier = (1f / 1.8f) * heights[scaleCounter];
-        Vector3 newscale = new Vector3(scaleMultiplier, scaleMultiplier, scaleMultiplier);
-
-
-        for (float i = 0; i < animationTime; i+= Time.deltaTime)
-        {
-            float y = scaleCurve.Evaluate(i / animationTime);
-
-            transform.position = Vector3.Lerp(oldPos, newPos, y);
-            transform.localScale = Vector3.Lerp(oldScale, newscale, y);
-            yield return null;
-        }
-
         scaleCounter++;
-
-        animationLock = false;
-
-        OnScaleEnd.Invoke();
+        StartCoroutine(scaleUpAnimated(scaleCounter));
     }
 
-    IEnumerator scaleUpInSteps()
+    public void SetAnimationTime (float time)
+    {
+        animationTime = time;
+    }
+
+    IEnumerator scaleUpAnimated(int step)
     {
         if (animationLock)
             yield break;
 
-        OnScaleStart.Invoke();
-
         animationLock = true;
 
+        OnScaleStart.Invoke();
+
+
         Vector3 oldPos = transform.position;
-        Vector3 newPos = new Vector3(transform.position.x, heights[scaleCounter], transform.position.z);
+        Vector3 newPos = new Vector3(transform.position.x, heights[step], transform.position.z);
 
         Vector3 oldScale = transform.localScale;
-        float scaleMultiplier = (1f / 1.8f) * heights[scaleCounter];
+        float scaleMultiplier = (1f / 1.8f) * heights[step];
         Vector3 newscale = new Vector3(scaleMultiplier, scaleMultiplier, scaleMultiplier);
 
 
@@ -140,15 +102,14 @@ public class Scaling : MonoBehaviour
 
             transform.position = Vector3.Lerp(oldPos, newPos, y);
             transform.localScale = Vector3.Lerp(oldScale, newscale, y);
-            yield return new WaitForSeconds(animationTime / 10f);
-            i += animationTime / 10f;
+            yield return null;
         }
 
-        scaleCounter++;
-
-        animationLock = false;
+        scaleCounter = step;
 
         OnScaleEnd.Invoke();
+
+        animationLock = false;
 
     }
 }

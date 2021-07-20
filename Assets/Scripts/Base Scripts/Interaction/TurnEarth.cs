@@ -56,7 +56,7 @@ public class TurnEarth : MonoBehaviour
 
     private void Start()
     {
-        pointer = ControllerManager.Instance.GetController().transform;
+        pointer = ControllerManager.Instance.GetActiveController().transform;
 
         if (unlockRotationAtStart)
         {

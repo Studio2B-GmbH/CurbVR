@@ -35,7 +35,7 @@ public class PointerEventReciever : MonoBehaviour
 
     private void Start()
     {
-        if(transform.GetComponent<Collider>() == null)
+        if (transform.GetComponent<Collider>() == null)
         {
             Debug.LogWarning(gameObject.name + " doesn't have a collider attached and will not recieve Pointer Events");
             return;
@@ -58,7 +58,7 @@ public class PointerEventReciever : MonoBehaviour
 
     void PointerEnter(RaycastHit hit)
     {
-        if(hit.transform.gameObject == this.gameObject && recieverEnabled)
+        if (hit.transform.gameObject == this.gameObject && recieverEnabled)
         {
             OnPointerEnter.Invoke(hit);
         }
@@ -73,6 +73,7 @@ public class PointerEventReciever : MonoBehaviour
     }
     void PointerStay(RaycastHit hit)
     {
+
         if (hit.transform.gameObject == this.gameObject && recieverEnabled)
         {
             OnPointerStay.Invoke(hit);
@@ -81,25 +82,35 @@ public class PointerEventReciever : MonoBehaviour
 
     void PointerPressDown(RaycastHit hit)
     {
-        if (hit.transform.gameObject == this.gameObject && recieverEnabled)
+        if (this != null)
         {
-            OnPointerPressDown.Invoke(hit);
+            if (hit.transform.gameObject == this.gameObject && recieverEnabled)
+            {
+                OnPointerPressDown.Invoke(hit);
+            }
         }
+
     }
 
     void PointerPressStay(RaycastHit hit)
     {
-        if(hit.transform.gameObject == this.gameObject && recieverEnabled)
+        if (this != null)
         {
-            OnPointerStayPressed.Invoke(hit);
+            if (hit.transform.gameObject == this.gameObject && recieverEnabled)
+            {
+                OnPointerStayPressed.Invoke(hit);
+            }
         }
     }
 
     void PointerPressUp(RaycastHit hit)
     {
-        if (hit.transform.gameObject == this.gameObject && recieverEnabled)
+        if (this != null)
         {
-            OnPointerPressUp.Invoke(hit);
+            if (hit.transform.gameObject == this.gameObject && recieverEnabled)
+            {
+                OnPointerPressUp.Invoke(hit);
+            }
         }
     }
 
@@ -117,7 +128,7 @@ public class PointerEventReciever : MonoBehaviour
     {
         recieverEnabled = true;
 
-        if(highlight != null)
+        if (highlight != null)
         {
             highlight.highlightActivated = false;
         }

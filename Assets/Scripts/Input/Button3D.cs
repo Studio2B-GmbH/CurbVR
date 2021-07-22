@@ -197,7 +197,13 @@ public class Button3D : MonoBehaviour
     {
         fadeAnim.FadeOverTime(0);
         buttonEnabled = false;
-        col.enabled = false;
+        StartCoroutine(SetColliderActiveDelayed(false, fadeAnim.GetAnimTime()));
+    }
+
+    IEnumerator SetColliderActiveDelayed(bool active, float time)
+    {
+        yield return new WaitForSeconds(time);
+        col.enabled = active;
     }
 
     private void OnEnable()

@@ -22,7 +22,10 @@ public class AttachToActiveController : MonoBehaviour
         {
             if (controllerManager.GetActiveController().transform != transform.parent)
             {
-                transform.parent = controllerManager.GetActiveController().transform;
+                transform.parent = controllerManager.GetInactiveController().transform;
+                transform.localPosition = Vector3.zero;
+                transform.localScale = Vector3.one;
+                transform.localRotation = Quaternion.identity;
             }
         }
 
@@ -30,12 +33,14 @@ public class AttachToActiveController : MonoBehaviour
         {
             if (controllerManager.GetInactiveController().transform != transform.parent)
             {
-                transform.parent = controllerManager.GetInactiveController().transform;
+                transform.parent = controllerManager.GetActiveController().transform;
+                transform.localPosition = Vector3.zero;
+                transform.localScale = Vector3.one;
+                transform.localRotation = Quaternion.identity;
             }
         }
 
-        transform.localPosition = Vector3.zero;
-        transform.localScale = Vector3.one;
+       
 
     }
 }

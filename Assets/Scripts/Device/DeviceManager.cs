@@ -85,6 +85,7 @@ public class DeviceManager : MonoBehaviour {
         {
             Debug.LogError("Unknown platform! RuntimePlatform is " + Application.platform + "; loadedDeviceName is " + XRSettings.loadedDeviceName);
         }
+
     }
 
     /// <summary>
@@ -101,7 +102,11 @@ public class DeviceManager : MonoBehaviour {
             case Platform.Quest:
             case Platform.PCRift:
                 return OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.All) ||
-                       OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.All);
+                       OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.All) ||
+                       OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.All) ||
+                       OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.All) ||
+                       OVRInput.GetDown(OVRInput.Button.Three, OVRInput.Controller.All) ||
+                       OVRInput.GetDown(OVRInput.Button.Four, OVRInput.Controller.All);
             case Platform.PCVRDisabled:
                 return Input.GetMouseButtonDown(0);
             default:
@@ -124,7 +129,11 @@ public class DeviceManager : MonoBehaviour {
             case Platform.Quest:
             case Platform.PCRift:
                 return OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.All) ||
-                       OVRInput.GetUp(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.All);
+                       OVRInput.GetUp(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.All) ||
+                       OVRInput.GetUp(OVRInput.Button.One, OVRInput.Controller.All) ||
+                       OVRInput.GetUp(OVRInput.Button.Two, OVRInput.Controller.All) ||
+                       OVRInput.GetUp(OVRInput.Button.Three, OVRInput.Controller.All) ||
+                       OVRInput.GetUp(OVRInput.Button.Four, OVRInput.Controller.All);
             case Platform.PCVRDisabled:
                 return Input.GetMouseButtonUp(0);
             default:
@@ -141,7 +150,11 @@ public class DeviceManager : MonoBehaviour {
             case Platform.Quest:
             case Platform.PCRift:
                 return OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.All) ||
-                       OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.All);
+                       OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger, OVRInput.Controller.All) ||
+                       OVRInput.Get(OVRInput.Button.One, OVRInput.Controller.All) ||
+                       OVRInput.Get(OVRInput.Button.Two, OVRInput.Controller.All) ||
+                       OVRInput.Get(OVRInput.Button.Three, OVRInput.Controller.All) ||
+                       OVRInput.Get(OVRInput.Button.Four, OVRInput.Controller.All);
             case Platform.PCVRDisabled:
                 return Input.GetMouseButton(0);
             default:

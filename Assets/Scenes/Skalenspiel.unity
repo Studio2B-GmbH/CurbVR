@@ -563,7 +563,6 @@ GameObject:
   - component: {fileID: 14768566}
   - component: {fileID: 14768565}
   - component: {fileID: 14768564}
-  - component: {fileID: 14768563}
   m_Layer: 0
   m_Name: Orb4 (47)
   m_TagString: Untagged
@@ -585,23 +584,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14768563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14768561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &14768564
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -837,7 +819,6 @@ GameObject:
   - component: {fileID: 24264537}
   - component: {fileID: 24264536}
   - component: {fileID: 24264535}
-  - component: {fileID: 24264534}
   m_Layer: 0
   m_Name: Orb2 (32)
   m_TagString: Untagged
@@ -859,23 +840,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &24264534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24264532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &24264535
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -948,7 +912,6 @@ GameObject:
   - component: {fileID: 35719298}
   - component: {fileID: 35719297}
   - component: {fileID: 35719296}
-  - component: {fileID: 35719295}
   m_Layer: 0
   m_Name: Orb2 (42)
   m_TagString: Untagged
@@ -970,23 +933,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &35719295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35719293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &35719296
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2358,7 +2304,6 @@ GameObject:
   - component: {fileID: 97859787}
   - component: {fileID: 97859786}
   - component: {fileID: 97859785}
-  - component: {fileID: 97859784}
   m_Layer: 0
   m_Name: Orb5 (72)
   m_TagString: Untagged
@@ -2380,23 +2325,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &97859784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97859782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &97859785
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2705,7 +2633,6 @@ GameObject:
   - component: {fileID: 101960175}
   - component: {fileID: 101960174}
   - component: {fileID: 101960173}
-  - component: {fileID: 101960172}
   m_Layer: 0
   m_Name: Orb5 (81)
   m_TagString: Untagged
@@ -2727,23 +2654,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &101960172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101960170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &101960173
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3280,7 +3190,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &115065268
 MeshRenderer:
@@ -3462,7 +3372,7 @@ Transform:
   m_LocalScale: {x: 32000.01, y: 32000.008, z: 32000.006}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &128989963
 MonoBehaviour:
@@ -4058,7 +3968,6 @@ GameObject:
   - component: {fileID: 158346332}
   - component: {fileID: 158346331}
   - component: {fileID: 158346330}
-  - component: {fileID: 158346329}
   m_Layer: 0
   m_Name: Orb2 (21)
   m_TagString: Untagged
@@ -4080,23 +3989,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &158346329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 158346327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &158346330
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4486,7 +4378,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182402853
 GameObject:
@@ -4588,7 +4480,7 @@ MonoBehaviour:
   VignetteShader: {fileID: 4800000, guid: 9d034fa3f535a1648b5059e6907c647d, type: 3}
   MeshComplexity: 2
   Falloff: 1
-  VignetteFieldOfView: 47.1
+  VignetteFieldOfView: 122.37
   VignetteAspectRatio: 0.5
   VignetteFalloffDegrees: 51.6
   VignetteColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5042,8 +4934,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202060629}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8, y: -26.9, z: 7.600069}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: -5.3, y: -44.6, z: 11.400104}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 7
@@ -5107,7 +4999,6 @@ GameObject:
   - component: {fileID: 207700739}
   - component: {fileID: 207700738}
   - component: {fileID: 207700737}
-  - component: {fileID: 207700736}
   m_Layer: 0
   m_Name: Orb4 (59)
   m_TagString: Untagged
@@ -5129,23 +5020,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &207700736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207700734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &207700737
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6334,7 +6208,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &230604282
 MeshRenderer:
@@ -6508,7 +6382,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &237039246
 PrefabInstance:
@@ -7266,15 +7140,20 @@ PrefabInstance:
       propertyPath: maxLaserDistance
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5047711019177790951, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
+        type: 3}
+      propertyPath: lineRendTargetScaleTransform
+      value: 
+      objectReference: {fileID: 427643593}
     - target: {fileID: 7606678212621196101, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
-      value: 0.0031695722
+      value: 0.00039817014
       objectReference: {fileID: 0}
     - target: {fileID: 7606678212621196101, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
         type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0
+      value: 0.013654478
       objectReference: {fileID: 0}
     - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
         type: 3}
@@ -7314,7 +7193,7 @@ PrefabInstance:
     - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8408615260444076834, guid: 61ff5c4c2b5e3c447b2b24481b1ce7a5,
         type: 3}
@@ -7488,7 +7367,7 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -8591,7 +8470,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
@@ -8738,7 +8617,6 @@ GameObject:
   - component: {fileID: 317289187}
   - component: {fileID: 317289186}
   - component: {fileID: 317289185}
-  - component: {fileID: 317289184}
   m_Layer: 0
   m_Name: Orb4 (64)
   m_TagString: Untagged
@@ -8760,23 +8638,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &317289184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317289182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &317289185
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9052,7 +8913,7 @@ Transform:
   m_Children:
   - {fileID: 1708056439}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!1 &324903195
 GameObject:
@@ -9271,7 +9132,6 @@ GameObject:
   - component: {fileID: 331735895}
   - component: {fileID: 331735894}
   - component: {fileID: 331735893}
-  - component: {fileID: 331735892}
   m_Layer: 0
   m_Name: Orb4 (57)
   m_TagString: Untagged
@@ -9293,23 +9153,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &331735892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331735890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &331735893
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9415,7 +9258,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fb5d8be3910629a4ba5aabaa804d2fb9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb5d8be3910629a4ba5aabaa804d2fb9,
         type: 3}
@@ -9487,7 +9330,6 @@ GameObject:
   - component: {fileID: 336794734}
   - component: {fileID: 336794733}
   - component: {fileID: 336794732}
-  - component: {fileID: 336794731}
   m_Layer: 0
   m_Name: Orb2 (26)
   m_TagString: Untagged
@@ -9509,23 +9351,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &336794731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336794729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &336794732
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9598,7 +9423,6 @@ GameObject:
   - component: {fileID: 338309898}
   - component: {fileID: 338309897}
   - component: {fileID: 338309896}
-  - component: {fileID: 338309895}
   m_Layer: 0
   m_Name: Orb2 (40)
   m_TagString: Untagged
@@ -9620,23 +9444,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &338309895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338309893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &338309896
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10008,7 +9815,7 @@ Transform:
   - {fileID: 1210103137}
   - {fileID: 977555012}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &351369080
 GameObject:
@@ -10022,7 +9829,6 @@ GameObject:
   - component: {fileID: 351369085}
   - component: {fileID: 351369084}
   - component: {fileID: 351369083}
-  - component: {fileID: 351369082}
   m_Layer: 0
   m_Name: Orb2 (30)
   m_TagString: Untagged
@@ -10044,23 +9850,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &351369082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351369080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &351369083
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10637,7 +10426,7 @@ Transform:
   - {fileID: 2036444242}
   - {fileID: 49718609}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &369192249
 GameObject:
@@ -10842,7 +10631,6 @@ GameObject:
   - component: {fileID: 370637072}
   - component: {fileID: 370637071}
   - component: {fileID: 370637070}
-  - component: {fileID: 370637069}
   m_Layer: 0
   m_Name: Orb1 (5)
   m_TagString: Untagged
@@ -10864,23 +10652,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &370637069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370637067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &370637070
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10953,7 +10724,6 @@ GameObject:
   - component: {fileID: 373929937}
   - component: {fileID: 373929936}
   - component: {fileID: 373929935}
-  - component: {fileID: 373929934}
   m_Layer: 0
   m_Name: Orb1 (3)
   m_TagString: Untagged
@@ -10975,23 +10745,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &373929934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373929932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &373929935
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11175,7 +10928,6 @@ GameObject:
   - component: {fileID: 381616976}
   - component: {fileID: 381616975}
   - component: {fileID: 381616974}
-  - component: {fileID: 381616973}
   m_Layer: 0
   m_Name: Orb2 (38)
   m_TagString: Untagged
@@ -11197,23 +10949,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &381616973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381616971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &381616974
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11618,7 +11353,7 @@ Transform:
   - {fileID: 1400759850}
   - {fileID: 1841927225}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &395772551
 GameObject:
@@ -11760,7 +11495,7 @@ Transform:
   m_Children:
   - {fileID: 5914149794122324439}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!1 &402757084
 GameObject:
@@ -12464,7 +12199,6 @@ GameObject:
   - component: {fileID: 425342879}
   - component: {fileID: 425342878}
   - component: {fileID: 425342877}
-  - component: {fileID: 425342876}
   m_Layer: 0
   m_Name: Orb2 (37)
   m_TagString: Untagged
@@ -12486,23 +12220,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &425342876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425342874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &425342877
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12573,7 +12290,6 @@ GameObject:
   m_Component:
   - component: {fileID: 427643593}
   - component: {fileID: 427643594}
-  - component: {fileID: 427643595}
   - component: {fileID: 427643596}
   m_Layer: 0
   m_Name: VR Parent
@@ -12655,21 +12371,9 @@ MonoBehaviour:
   OnScaleEnd:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &427643595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427643592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 138541463a4b5e14f82dbce77c97333a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeTime: 2
-  minFOV: 10
-  maxFOV: 120
+  vignetteFadeTime: 2
+  vignetteNormalFOV: 120
+  vignetteFadeFOV: 30
 --- !u!114 &427643596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12807,7 +12511,6 @@ GameObject:
   - component: {fileID: 449601376}
   - component: {fileID: 449601375}
   - component: {fileID: 449601374}
-  - component: {fileID: 449601373}
   m_Layer: 0
   m_Name: Orb4 (46)
   m_TagString: Untagged
@@ -12829,23 +12532,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &449601373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449601371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &449601374
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13047,7 +12733,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &458838196
 GameObject:
@@ -13061,7 +12747,6 @@ GameObject:
   - component: {fileID: 458838201}
   - component: {fileID: 458838200}
   - component: {fileID: 458838199}
-  - component: {fileID: 458838198}
   m_Layer: 0
   m_Name: Orb4 (62)
   m_TagString: Untagged
@@ -13083,23 +12768,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &458838198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458838196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &458838199
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13528,7 +13196,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &480674525
 GameObject:
@@ -13762,7 +13430,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b15cadf4a0b3b0941a63f9abdbd5926d,
         type: 3}
@@ -13835,7 +13503,6 @@ GameObject:
   - component: {fileID: 497254744}
   - component: {fileID: 497254743}
   - component: {fileID: 497254742}
-  - component: {fileID: 497254741}
   m_Layer: 0
   m_Name: Orb2 (10)
   m_TagString: Untagged
@@ -13857,23 +13524,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &497254741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497254739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &497254742
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14029,7 +13679,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &509554359
 MeshRenderer:
@@ -14108,7 +13758,6 @@ GameObject:
   - component: {fileID: 511478107}
   - component: {fileID: 511478106}
   - component: {fileID: 511478105}
-  - component: {fileID: 511478104}
   m_Layer: 0
   m_Name: Orb4 (50)
   m_TagString: Untagged
@@ -14130,23 +13779,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &511478104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511478102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &511478105
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14219,7 +13851,6 @@ GameObject:
   - component: {fileID: 520059883}
   - component: {fileID: 520059882}
   - component: {fileID: 520059881}
-  - component: {fileID: 520059880}
   m_Layer: 0
   m_Name: Orb1 (1)
   m_TagString: Untagged
@@ -14241,23 +13872,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &520059880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 520059878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &520059881
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14462,7 +14076,7 @@ Transform:
   - {fileID: 4635103013824133808}
   - {fileID: 1485568325}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &525343788
 BoxCollider:
@@ -15541,7 +15155,6 @@ GameObject:
   - component: {fileID: 543563784}
   - component: {fileID: 543563783}
   - component: {fileID: 543563782}
-  - component: {fileID: 543563781}
   m_Layer: 0
   m_Name: Orb5 (85)
   m_TagString: Untagged
@@ -15563,23 +15176,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &543563781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543563779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &543563782
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15652,7 +15248,6 @@ GameObject:
   - component: {fileID: 544632548}
   - component: {fileID: 544632547}
   - component: {fileID: 544632546}
-  - component: {fileID: 544632545}
   m_Layer: 0
   m_Name: Orb2 (41)
   m_TagString: Untagged
@@ -15674,23 +15269,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &544632545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544632543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &544632546
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15796,7 +15374,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b427f2f34916a4149bec7a73f3df6470,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b427f2f34916a4149bec7a73f3df6470,
         type: 3}
@@ -15864,7 +15442,6 @@ GameObject:
   - component: {fileID: 552922876}
   - component: {fileID: 552922875}
   - component: {fileID: 552922874}
-  - component: {fileID: 552922873}
   m_Layer: 0
   m_Name: Orb4 (65)
   m_TagString: Untagged
@@ -15886,23 +15463,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &552922873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552922871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &552922874
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15998,12 +15558,12 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18
+      value: 0.263
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0161
+      value: 0.063
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -16048,17 +15608,17 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.01880387
+      value: 0.029937949
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.014194813
+      value: 0.022599794
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.018660951
+      value: 0.029710405
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d, type: 3}
@@ -16105,7 +15665,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -16172,7 +15732,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4.82
+      scalar: 10
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -16225,7 +15785,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 23.1
+      scalar: 100000
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -16341,7 +15901,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.06
+      scalar: 5000
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -20766,7 +20326,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0d9ed4d5cb23cad4e8519b7576d2bff6, type: 2}
+  - {fileID: 2100000, guid: 6285012649944f443a9a24db4e00fddd, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -20823,7 +20383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754b7fb3f1d59574ba250113d95b3244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angleTolerance: 10
+  angleTolerance: 15
   lookedAtStartEvent:
     m_PersistentCalls:
       m_Calls:
@@ -21341,7 +20901,6 @@ GameObject:
   - component: {fileID: 581463390}
   - component: {fileID: 581463389}
   - component: {fileID: 581463388}
-  - component: {fileID: 581463387}
   m_Layer: 0
   m_Name: Orb4 (51)
   m_TagString: Untagged
@@ -21363,23 +20922,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &581463387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581463385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &581463388
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22445,7 +21987,6 @@ GameObject:
   - component: {fileID: 620391888}
   - component: {fileID: 620391887}
   - component: {fileID: 620391886}
-  - component: {fileID: 620391885}
   m_Layer: 0
   m_Name: Orb2 (27)
   m_TagString: Untagged
@@ -22467,23 +22008,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &620391885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620391883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &620391886
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22798,7 +22322,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &630972072
 MonoBehaviour:
@@ -23380,7 +22904,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &669920993
 GameObject:
@@ -23858,7 +23382,6 @@ GameObject:
   - component: {fileID: 700808872}
   - component: {fileID: 700808871}
   - component: {fileID: 700808870}
-  - component: {fileID: 700808869}
   m_Layer: 0
   m_Name: Orb5 (86)
   m_TagString: Untagged
@@ -23880,23 +23403,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &700808869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700808867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &700808870
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -24149,7 +23655,7 @@ Transform:
   - {fileID: 1440033175}
   - {fileID: 1149753104}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 57.745003, y: -38.304, z: -10.657001}
 --- !u!114 &705507996
 MonoBehaviour:
@@ -24271,7 +23777,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &723971834
 MeshRenderer:
@@ -24572,7 +24078,6 @@ GameObject:
   - component: {fileID: 733845470}
   - component: {fileID: 733845469}
   - component: {fileID: 733845468}
-  - component: {fileID: 733845467}
   m_Layer: 0
   m_Name: Orb5 (76)
   m_TagString: Untagged
@@ -24594,23 +24099,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &733845467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733845465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &733845468
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -24697,8 +24185,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735307733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.7, y: -17.2, z: 6.1}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: -20.9, y: -24.7, z: 20.3}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 1
@@ -24795,7 +24283,7 @@ Transform:
   m_Children:
   - {fileID: 993622835}
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 57.516003, z: 0}
 --- !u!1 &740968881
 GameObject:
@@ -24888,7 +24376,6 @@ GameObject:
   - component: {fileID: 756195346}
   - component: {fileID: 756195345}
   - component: {fileID: 756195344}
-  - component: {fileID: 756195343}
   m_Layer: 0
   m_Name: Orb5 (82)
   m_TagString: Untagged
@@ -24910,23 +24397,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &756195343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 756195341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &756195344
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -24999,7 +24469,6 @@ GameObject:
   - component: {fileID: 758149585}
   - component: {fileID: 758149584}
   - component: {fileID: 758149583}
-  - component: {fileID: 758149582}
   m_Layer: 0
   m_Name: Orb2 (23)
   m_TagString: Untagged
@@ -25021,23 +24490,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &758149582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758149580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &758149583
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25123,7 +24575,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761540688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29563.654, y: 6802.8057, z: 26342.434}
+  m_LocalPosition: {x: -29563.654, y: 16705, z: 26342.434}
   m_LocalScale: {x: 481.24463, y: 74.082085, z: 366.66928}
   m_Children:
   - {fileID: 532418105}
@@ -25144,7 +24596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selfinit: 1
   targetPositions:
-  - {x: 185196, y: 7414, z: 142476}
+  - {x: 185196, y: 16705, z: 142476}
   animTime: 3000
 --- !u!1 &763188137
 GameObject:
@@ -26104,7 +25556,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &796601059
 GameObject:
@@ -26519,8 +25971,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811567922}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.01, y: -18, z: 6.1000586}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 45.4, y: -4, z: 20.0001}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 5
@@ -26584,7 +26036,6 @@ GameObject:
   - component: {fileID: 812600049}
   - component: {fileID: 812600048}
   - component: {fileID: 812600047}
-  - component: {fileID: 812600046}
   m_Layer: 0
   m_Name: Orb4 (55)
   m_TagString: Untagged
@@ -26606,23 +26057,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &812600046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812600044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &812600047
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26870,7 +26304,6 @@ GameObject:
   - component: {fileID: 816319625}
   - component: {fileID: 816319624}
   - component: {fileID: 816319623}
-  - component: {fileID: 816319622}
   m_Layer: 0
   m_Name: Orb4 (56)
   m_TagString: Untagged
@@ -26892,23 +26325,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &816319622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816319620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &816319623
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -27455,7 +26871,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &840448994
 MeshRenderer:
@@ -27850,7 +27266,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &866327142
 MeshRenderer:
@@ -27948,7 +27364,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &875315909
 MeshRenderer:
@@ -28027,7 +27443,6 @@ GameObject:
   - component: {fileID: 875628080}
   - component: {fileID: 875628079}
   - component: {fileID: 875628078}
-  - component: {fileID: 875628077}
   m_Layer: 0
   m_Name: Orb5 (67)
   m_TagString: Untagged
@@ -28049,23 +27464,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &875628077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875628075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &875628078
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28138,7 +27536,6 @@ GameObject:
   - component: {fileID: 875798545}
   - component: {fileID: 875798544}
   - component: {fileID: 875798543}
-  - component: {fileID: 875798542}
   m_Layer: 0
   m_Name: Orb4 (58)
   m_TagString: Untagged
@@ -28160,23 +27557,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &875798542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875798540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &875798543
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28392,7 +27772,6 @@ GameObject:
   - component: {fileID: 888028813}
   - component: {fileID: 888028812}
   - component: {fileID: 888028811}
-  - component: {fileID: 888028810}
   m_Layer: 0
   m_Name: Orb2 (16)
   m_TagString: Untagged
@@ -28414,23 +27793,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &888028810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888028808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &888028811
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -28708,7 +28070,6 @@ Transform:
   - {fileID: 1168873870}
   - {fileID: 822633933}
   - {fileID: 996792576}
-  - {fileID: 1626864630}
   - {fileID: 723971832}
   - {fileID: 509554357}
   - {fileID: 840448992}
@@ -28914,7 +28275,7 @@ Transform:
   m_Children:
   - {fileID: 1702668757}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: -126.089005, z: 0}
 --- !u!1 &918821116
 GameObject:
@@ -29341,8 +28702,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932898463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.9, y: -28.5, z: 7.6}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 43.3, y: -28.2, z: 19.6}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 2
@@ -29505,7 +28866,6 @@ GameObject:
   - component: {fileID: 938255041}
   - component: {fileID: 938255040}
   - component: {fileID: 938255039}
-  - component: {fileID: 938255038}
   m_Layer: 0
   m_Name: Orb5 (68)
   m_TagString: Untagged
@@ -29527,23 +28887,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &938255038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938255036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &938255039
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -29616,7 +28959,6 @@ GameObject:
   - component: {fileID: 938358652}
   - component: {fileID: 938358651}
   - component: {fileID: 938358650}
-  - component: {fileID: 938358649}
   m_Layer: 0
   m_Name: Orb4 (63)
   m_TagString: Untagged
@@ -29638,23 +28980,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &938358649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938358647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &938358650
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -29826,7 +29151,6 @@ GameObject:
   - component: {fileID: 944055531}
   - component: {fileID: 944055530}
   - component: {fileID: 944055529}
-  - component: {fileID: 944055528}
   m_Layer: 0
   m_Name: Orb2 (17)
   m_TagString: Untagged
@@ -29848,23 +29172,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &944055528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944055526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &944055529
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -31146,8 +30453,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978039839}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.53, y: 6.4, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 13.1, y: 23.3, z: 8.7}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 3
@@ -31211,7 +30518,6 @@ GameObject:
   - component: {fileID: 979498707}
   - component: {fileID: 979498706}
   - component: {fileID: 979498705}
-  - component: {fileID: 979498704}
   m_Layer: 0
   m_Name: Orb4 (61)
   m_TagString: Untagged
@@ -31233,23 +30539,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &979498704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979498702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &979498705
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -32399,6 +31688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackToMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610903, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c736dfddc372b4c4abf7c82e746df01f, type: 2}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: defaultTex
@@ -32432,12 +31726,12 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.99
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -32998,7 +32292,6 @@ GameObject:
   - component: {fileID: 1027228740}
   - component: {fileID: 1027228739}
   - component: {fileID: 1027228738}
-  - component: {fileID: 1027228737}
   m_Layer: 0
   m_Name: Orb5 (83)
   m_TagString: Untagged
@@ -33020,23 +32313,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1027228737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1027228735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1027228738
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33474,7 +32750,6 @@ GameObject:
   - component: {fileID: 1040775698}
   - component: {fileID: 1040775697}
   - component: {fileID: 1040775696}
-  - component: {fileID: 1040775695}
   m_Layer: 0
   m_Name: Orb5 (84)
   m_TagString: Untagged
@@ -33496,23 +32771,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1040775695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040775693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1040775696
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -33971,7 +33229,6 @@ GameObject:
   - component: {fileID: 1046731661}
   - component: {fileID: 1046731660}
   - component: {fileID: 1046731659}
-  - component: {fileID: 1046731658}
   m_Layer: 0
   m_Name: Orb2 (31)
   m_TagString: Untagged
@@ -33993,23 +33250,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1046731658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046731656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1046731659
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34095,7 +33335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048606388}
   m_LocalRotation: {x: -0, y: 0.30830157, z: -0, w: 0.9512887}
-  m_LocalPosition: {x: -13438.654, y: 4642.8057, z: -61561.566}
+  m_LocalPosition: {x: -13438.654, y: 6710, z: -61561.566}
   m_LocalScale: {x: 481.24463, y: 74.082085, z: 366.66928}
   m_Children:
   - {fileID: 1472560571}
@@ -34339,7 +33579,6 @@ GameObject:
   - component: {fileID: 1059749953}
   - component: {fileID: 1059749952}
   - component: {fileID: 1059749951}
-  - component: {fileID: 1059749950}
   m_Layer: 0
   m_Name: Orb5 (79)
   m_TagString: Untagged
@@ -34361,23 +33600,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1059749950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1059749948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1059749951
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34751,7 +33973,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1095253448
 MeshRenderer:
@@ -34830,6 +34052,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Normal
       objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610903, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c736dfddc372b4c4abf7c82e746df01f, type: 2}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: defaultTex
@@ -34858,12 +34085,12 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.99
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -35260,7 +34487,6 @@ GameObject:
   - component: {fileID: 1112203626}
   - component: {fileID: 1112203625}
   - component: {fileID: 1112203624}
-  - component: {fileID: 1112203623}
   m_Layer: 0
   m_Name: Orb5 (75)
   m_TagString: Untagged
@@ -35282,23 +34508,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1112203623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112203621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1112203624
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35553,7 +34762,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1119842563
 MeshRenderer:
@@ -35632,7 +34841,6 @@ GameObject:
   - component: {fileID: 1120467238}
   - component: {fileID: 1120467237}
   - component: {fileID: 1120467236}
-  - component: {fileID: 1120467235}
   m_Layer: 0
   m_Name: Orb2 (45)
   m_TagString: Untagged
@@ -35654,23 +34862,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1120467235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120467233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1120467236
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35743,7 +34934,6 @@ GameObject:
   - component: {fileID: 1127164317}
   - component: {fileID: 1127164316}
   - component: {fileID: 1127164315}
-  - component: {fileID: 1127164314}
   m_Layer: 0
   m_Name: Orb1 (7)
   m_TagString: Untagged
@@ -35765,23 +34955,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1127164314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127164312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1127164315
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35946,7 +35119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141535553}
   m_LocalRotation: {x: -0, y: 0.39277095, z: -0, w: 0.9196363}
-  m_LocalPosition: {x: 7301.3457, y: 4009.8054, z: 1708.4331}
+  m_LocalPosition: {x: 7301.3457, y: 9275, z: 1708.4331}
   m_LocalScale: {x: 113.48636, y: 74.082085, z: 121.51685}
   m_Children:
   - {fileID: 1294191715}
@@ -36079,7 +35252,6 @@ GameObject:
   - component: {fileID: 1143591771}
   - component: {fileID: 1143591770}
   - component: {fileID: 1143591769}
-  - component: {fileID: 1143591768}
   m_Layer: 0
   m_Name: Orb2 (29)
   m_TagString: Untagged
@@ -36101,23 +35273,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1143591768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143591766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1143591769
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36910,7 +36065,6 @@ GameObject:
   - component: {fileID: 1187841577}
   - component: {fileID: 1187841576}
   - component: {fileID: 1187841575}
-  - component: {fileID: 1187841574}
   m_Layer: 0
   m_Name: Orb2 (22)
   m_TagString: Untagged
@@ -36932,23 +36086,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187841574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187841572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1187841575
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -37367,7 +36504,6 @@ GameObject:
   - component: {fileID: 1200736738}
   - component: {fileID: 1200736737}
   - component: {fileID: 1200736736}
-  - component: {fileID: 1200736735}
   m_Layer: 0
   m_Name: Orb2 (24)
   m_TagString: Untagged
@@ -37389,23 +36525,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1200736735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1200736733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1200736736
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -38922,7 +38041,6 @@ GameObject:
   - component: {fileID: 1279466687}
   - component: {fileID: 1279466686}
   - component: {fileID: 1279466685}
-  - component: {fileID: 1279466684}
   m_Layer: 0
   m_Name: Orb2 (15)
   m_TagString: Untagged
@@ -38944,23 +38062,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1279466684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279466682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1279466685
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -39827,7 +38928,6 @@ GameObject:
   - component: {fileID: 1309468402}
   - component: {fileID: 1309468401}
   - component: {fileID: 1309468400}
-  - component: {fileID: 1309468399}
   m_Layer: 0
   m_Name: Orb4 (54)
   m_TagString: Untagged
@@ -39849,23 +38949,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1309468399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309468397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1309468400
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40418,8 +39501,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330199093}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.08, y: -5.4, z: 2.7}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 34.8, y: 13.7, z: 11.999993}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 4
@@ -41127,7 +40210,6 @@ GameObject:
   - component: {fileID: 1354840420}
   - component: {fileID: 1354840419}
   - component: {fileID: 1354840418}
-  - component: {fileID: 1354840417}
   m_Layer: 0
   m_Name: Orb2 (25)
   m_TagString: Untagged
@@ -41149,23 +40231,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1354840417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1354840415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1354840418
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41376,7 +40441,7 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -41536,22 +40601,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      time: 0.0032627569
+      value: -0.0102392435
+      inSlope: -0.057027407
+      outSlope: -0.057027407
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
+      outWeight: 0.05417118
     - serializedVersion: 3
-      time: 1.0045624
-      value: 35.61223
-      inSlope: 91.5546
-      outSlope: 91.5546
+      time: 1.0012202
+      value: 1.0009503
+      inSlope: 2.835759
+      outSlope: 2.835759
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.1565328
+      inWeight: 0.07034376
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -41614,6 +40679,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  testStart: 0
 --- !u!4 &1363470784
 Transform:
   m_ObjectHideFlags: 0
@@ -41627,7 +40693,7 @@ Transform:
   m_Children:
   - {fileID: 605592369}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1365635825
 GameObject:
@@ -41831,7 +40897,6 @@ GameObject:
   - component: {fileID: 1367100673}
   - component: {fileID: 1367100672}
   - component: {fileID: 1367100671}
-  - component: {fileID: 1367100670}
   m_Layer: 0
   m_Name: Orb2 (11)
   m_TagString: Untagged
@@ -41853,23 +40918,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1367100670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367100668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1367100671
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42006,7 +41054,6 @@ GameObject:
   - component: {fileID: 1373088302}
   - component: {fileID: 1373088301}
   - component: {fileID: 1373088300}
-  - component: {fileID: 1373088299}
   m_Layer: 0
   m_Name: Orb5 (73)
   m_TagString: Untagged
@@ -42028,23 +41075,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1373088299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373088297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1373088300
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42117,7 +41147,6 @@ GameObject:
   - component: {fileID: 1375051847}
   - component: {fileID: 1375051846}
   - component: {fileID: 1375051845}
-  - component: {fileID: 1375051844}
   m_Layer: 0
   m_Name: Orb5 (78)
   m_TagString: Untagged
@@ -42139,23 +41168,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1375051844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375051842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1375051845
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42418,7 +41430,6 @@ GameObject:
   - component: {fileID: 1389256312}
   - component: {fileID: 1389256311}
   - component: {fileID: 1389256310}
-  - component: {fileID: 1389256309}
   m_Layer: 0
   m_Name: Orb1 (2)
   m_TagString: Untagged
@@ -42440,23 +41451,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1389256309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1389256307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1389256310
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42562,7 +41556,7 @@ Transform:
   - {fileID: 3513271}
   - {fileID: 1321567424}
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1394362119
 GameObject:
@@ -42865,7 +41859,6 @@ GameObject:
   - component: {fileID: 1409385186}
   - component: {fileID: 1409385185}
   - component: {fileID: 1409385184}
-  - component: {fileID: 1409385183}
   m_Layer: 0
   m_Name: Orb4 (60)
   m_TagString: Untagged
@@ -42887,23 +41880,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1409385183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1409385181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1409385184
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -43494,7 +42470,6 @@ GameObject:
   - component: {fileID: 1427933659}
   - component: {fileID: 1427933658}
   - component: {fileID: 1427933657}
-  - component: {fileID: 1427933656}
   m_Layer: 0
   m_Name: Orb2 (34)
   m_TagString: Untagged
@@ -43516,23 +42491,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1427933656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427933654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1427933657
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -44735,7 +43693,6 @@ GameObject:
   - component: {fileID: 1443720743}
   - component: {fileID: 1443720742}
   - component: {fileID: 1443720741}
-  - component: {fileID: 1443720740}
   m_Layer: 0
   m_Name: Orb5 (71)
   m_TagString: Untagged
@@ -44757,23 +43714,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1443720740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443720738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1443720741
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45068,7 +44008,6 @@ GameObject:
   - component: {fileID: 1450234837}
   - component: {fileID: 1450234836}
   - component: {fileID: 1450234835}
-  - component: {fileID: 1450234834}
   m_Layer: 0
   m_Name: Orb5 (66)
   m_TagString: Untagged
@@ -45090,23 +44029,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1450234834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450234832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1450234835
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45834,7 +44756,6 @@ GameObject:
   - component: {fileID: 1486047697}
   - component: {fileID: 1486047696}
   - component: {fileID: 1486047695}
-  - component: {fileID: 1486047694}
   m_Layer: 0
   m_Name: Orb2 (39)
   m_TagString: Untagged
@@ -45856,23 +44777,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1486047694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486047692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1486047695
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46335,6 +45239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gigantic
       objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610903, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c736dfddc372b4c4abf7c82e746df01f, type: 2}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: defaultTex
@@ -46368,12 +45277,12 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.99
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -46775,26 +45684,125 @@ MonoBehaviour:
     activated: 0
     OnEventStart:
       m_PersistentCalls:
-        m_Calls: []
-    WaitForCallback:
-      m_PersistentCalls:
-        m_Calls: []
-  - eventStart: 0
-    activated: 0
-    OnEventStart:
-      m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 427643595}
-          m_MethodName: FadeToFOV
+        - m_Target: {fileID: 475155945}
+          m_MethodName: FadeOverTime
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 30
+            m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1304383202}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 680613382}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 581050097}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1950437238}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 954817196}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1343290653}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 110924633}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2036444246}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 49718613}
+          m_MethodName: FadeOverTime
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    WaitForCallback:
+      m_PersistentCalls:
+        m_Calls: []
+  - eventStart: 2
+    activated: 0
+    OnEventStart:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 116513857}
           m_MethodName: SetActive
           m_Mode: 6
@@ -46862,26 +45870,15 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 12
+  - eventStart: 14
     activated: 0
     OnEventStart:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 427643595}
-          m_MethodName: FadeToFOV
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 120
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 15
+  - eventStart: 17
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -46901,7 +45898,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 25
+  - eventStart: 27
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -46942,7 +45939,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 50
+  - eventStart: 52
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -46983,7 +45980,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 70
+  - eventStart: 72
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -47002,7 +45999,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 78
+  - eventStart: 80
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -47032,7 +46029,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 110
+  - eventStart: 112
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -47085,7 +46082,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1505076858
 PrefabInstance:
@@ -47786,7 +46783,6 @@ GameObject:
   - component: {fileID: 1513765657}
   - component: {fileID: 1513765656}
   - component: {fileID: 1513765655}
-  - component: {fileID: 1513765654}
   m_Layer: 0
   m_Name: Orb1
   m_TagString: Untagged
@@ -47808,23 +46804,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1513765654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513765652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1513765655
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -47976,7 +46955,6 @@ GameObject:
   - component: {fileID: 1517627407}
   - component: {fileID: 1517627406}
   - component: {fileID: 1517627405}
-  - component: {fileID: 1517627404}
   m_Layer: 0
   m_Name: Orb2 (14)
   m_TagString: Untagged
@@ -47998,23 +46976,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1517627404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517627402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1517627405
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -48297,8 +47258,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524661170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7, y: 5.9, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: -7.9, y: 13.1, z: 11.9}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 8
@@ -48812,7 +47773,6 @@ GameObject:
   - component: {fileID: 1543696871}
   - component: {fileID: 1543696870}
   - component: {fileID: 1543696869}
-  - component: {fileID: 1543696868}
   m_Layer: 0
   m_Name: Orb2 (19)
   m_TagString: Untagged
@@ -48834,23 +47794,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1543696868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543696866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1543696869
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49113,7 +48056,6 @@ GameObject:
   - component: {fileID: 1552988302}
   - component: {fileID: 1552988301}
   - component: {fileID: 1552988300}
-  - component: {fileID: 1552988299}
   m_Layer: 0
   m_Name: Orb2 (35)
   m_TagString: Untagged
@@ -49135,23 +48077,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1552988299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552988297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1552988300
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -49428,8 +48353,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566550846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.76, y: -5.62, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: -20.8, y: -2.8, z: 13.9}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 0
@@ -49627,7 +48552,7 @@ Transform:
   m_Children:
   - {fileID: 82329616}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581529311
 GameObject:
@@ -50598,7 +49523,6 @@ GameObject:
   - component: {fileID: 1625558337}
   - component: {fileID: 1625558336}
   - component: {fileID: 1625558335}
-  - component: {fileID: 1625558334}
   m_Layer: 0
   m_Name: Orb1 (6)
   m_TagString: Untagged
@@ -50620,23 +49544,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1625558334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625558332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1625558335
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -50808,104 +49715,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625809917}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1626864629
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1626864630}
-  - component: {fileID: 1626864633}
-  - component: {fileID: 1626864632}
-  - component: {fileID: 1626864634}
-  m_Layer: 0
-  m_Name: Orb5 (76)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1626864630
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626864629}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -12753, y: 5753, z: 1671}
-  m_LocalScale: {x: 2000, y: 2000, z: 2000}
-  m_Children: []
-  m_Father: {fileID: 897260452}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1626864632
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626864629}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: caec9b2eb5cd2f941bf4b302ef344454, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 4
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1626864633
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626864629}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1626864634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626864629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 3
-  playSpawnOrbAnimation: 1
-  spawnOrbPrefab: {fileID: 2902262171418177424, guid: 1d14e19c6111c1a40a93c98a3d2a2447,
-    type: 3}
 --- !u!1 &1628245371
 GameObject:
   m_ObjectHideFlags: 0
@@ -51329,7 +50138,6 @@ GameObject:
   - component: {fileID: 1640907442}
   - component: {fileID: 1640907441}
   - component: {fileID: 1640907440}
-  - component: {fileID: 1640907439}
   m_Layer: 0
   m_Name: Orb2 (36)
   m_TagString: Untagged
@@ -51351,23 +50159,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1640907439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640907437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1640907440
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51551,6 +50342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big
       objectReference: {fileID: 0}
+    - target: {fileID: 2357829946168610903, guid: 015126a7fbb07c649b1d9eb26b794b2d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c736dfddc372b4c4abf7c82e746df01f, type: 2}
     - target: {fileID: 2357829946168610904, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: defaultTex
@@ -51589,7 +50385,7 @@ PrefabInstance:
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.99
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 2357829946168610905, guid: 015126a7fbb07c649b1d9eb26b794b2d,
         type: 3}
@@ -51827,7 +50623,6 @@ GameObject:
   - component: {fileID: 1662832111}
   - component: {fileID: 1662832110}
   - component: {fileID: 1662832109}
-  - component: {fileID: 1662832108}
   m_Layer: 0
   m_Name: Orb5 (69)
   m_TagString: Untagged
@@ -51849,23 +50644,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1662832108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662832106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1662832109
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52298,7 +51076,6 @@ GameObject:
   - component: {fileID: 1678734129}
   - component: {fileID: 1678734128}
   - component: {fileID: 1678734127}
-  - component: {fileID: 1678734126}
   m_Layer: 0
   m_Name: Orb5 (74)
   m_TagString: Untagged
@@ -52320,23 +51097,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1678734126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678734124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1678734127
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52532,7 +51292,6 @@ GameObject:
   - component: {fileID: 1684095707}
   - component: {fileID: 1684095706}
   - component: {fileID: 1684095705}
-  - component: {fileID: 1684095704}
   m_Layer: 0
   m_Name: Orb2 (18)
   m_TagString: Untagged
@@ -52554,23 +51313,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1684095704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684095702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1684095705
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52643,7 +51385,6 @@ GameObject:
   - component: {fileID: 1687710654}
   - component: {fileID: 1687710653}
   - component: {fileID: 1687710652}
-  - component: {fileID: 1687710651}
   m_Layer: 0
   m_Name: Orb2 (12)
   m_TagString: Untagged
@@ -52665,23 +51406,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1687710651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687710649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1687710652
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52971,7 +51695,7 @@ Transform:
   m_Children:
   - {fileID: 7369524738127160598}
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1703875524
 GameObject:
@@ -53033,7 +51757,6 @@ GameObject:
   - component: {fileID: 1705005942}
   - component: {fileID: 1705005941}
   - component: {fileID: 1705005940}
-  - component: {fileID: 1705005939}
   m_Layer: 0
   m_Name: Orb2 (9)
   m_TagString: Untagged
@@ -53055,23 +51778,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1705005939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705005937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1705005940
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -53271,7 +51977,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716539988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36952.656, y: 4009.8054, z: -8982.566}
+  m_LocalPosition: {x: -36952.656, y: 7692, z: -8982.566}
   m_LocalScale: {x: 74.082085, y: 74.082085, z: 74.082085}
   m_Children:
   - {fileID: 297718436}
@@ -53319,7 +52025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716856058}
   m_LocalRotation: {x: -0, y: 0.30830157, z: -0, w: 0.9512887}
-  m_LocalPosition: {x: 59711.344, y: 4642.8057, z: -22502.566}
+  m_LocalPosition: {x: 59711.344, y: 6710, z: -22502.566}
   m_LocalScale: {x: 312.9389, y: 74.082085, z: 366.66928}
   m_Children:
   - {fileID: 245251958}
@@ -53368,8 +52074,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722468284}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.2, y: -30.84, z: 11.4}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 21.1, y: -45.3, z: 11.2}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 116513858}
   m_RootOrder: 6
@@ -53478,7 +52184,7 @@ Transform:
   m_Children:
   - {fileID: 1215813732}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!1 &1740505168
 GameObject:
@@ -53525,7 +52231,7 @@ Transform:
   m_Children:
   - {fileID: 622021324}
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 57.516003, z: 0}
 --- !u!1 &1742680650
 GameObject:
@@ -53881,7 +52587,6 @@ GameObject:
   - component: {fileID: 1746491629}
   - component: {fileID: 1746491628}
   - component: {fileID: 1746491627}
-  - component: {fileID: 1746491626}
   m_Layer: 0
   m_Name: Orb1 (4)
   m_TagString: Untagged
@@ -53903,23 +52608,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1746491626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746491624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1746491627
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -54201,7 +52889,6 @@ GameObject:
   - component: {fileID: 1760238816}
   - component: {fileID: 1760238815}
   - component: {fileID: 1760238814}
-  - component: {fileID: 1760238813}
   m_Layer: 0
   m_Name: Orb1 (8)
   m_TagString: Untagged
@@ -54223,23 +52910,6 @@ Transform:
   m_Father: {fileID: 353072152}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1760238813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760238811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1760238814
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -54312,7 +52982,6 @@ GameObject:
   - component: {fileID: 1763135544}
   - component: {fileID: 1763135543}
   - component: {fileID: 1763135542}
-  - component: {fileID: 1763135541}
   m_Layer: 0
   m_Name: Orb5 (70)
   m_TagString: Untagged
@@ -54334,23 +53003,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1763135541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763135539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1763135542
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -54839,7 +53491,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1790122989}
-  - component: {fileID: 1790122988}
   m_Layer: 0
   m_Name: Orbs_Secondlevel (3)
   m_TagString: Untagged
@@ -54847,33 +53498,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1790122988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790122987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ef6b23a3f1f9f347b757773839c5417, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventFireCount: 5
-  OnPointerEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1500901500}
-        m_MethodName: StartTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!4 &1790122989
 Transform:
   m_ObjectHideFlags: 0
@@ -54887,7 +53511,7 @@ Transform:
   m_Children:
   - {fileID: 1263197650}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!1 &1792998757
 GameObject:
@@ -55102,7 +53726,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f90958ca9e821514696ee958b6dd92c0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f90958ca9e821514696ee958b6dd92c0,
         type: 3}
@@ -55726,7 +54350,7 @@ Transform:
   - {fileID: 6446310547739414173}
   - {fileID: 4929839141901787894}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819597434
 GameObject:
@@ -56294,12 +54918,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836750954}
   m_Mesh: {fileID: 2802502674073714999, guid: 1aacb51a597bc4346932fe1c2b0c40da, type: 3}
---- !u!4 &1837501745 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3700779094727019571, guid: 8003bb7986d8435418546dc2bfb6d17d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1921286411}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1838544863
 GameObject:
   m_ObjectHideFlags: 0
@@ -56312,7 +54930,6 @@ GameObject:
   - component: {fileID: 1838544868}
   - component: {fileID: 1838544867}
   - component: {fileID: 1838544866}
-  - component: {fileID: 1838544865}
   m_Layer: 0
   m_Name: Orb2 (33)
   m_TagString: Untagged
@@ -56334,23 +54951,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1838544865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838544863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1838544866
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -57174,7 +55774,6 @@ GameObject:
   - component: {fileID: 1854616689}
   - component: {fileID: 1854616688}
   - component: {fileID: 1854616687}
-  - component: {fileID: 1854616686}
   m_Layer: 0
   m_Name: Orb2 (13)
   m_TagString: Untagged
@@ -57196,23 +55795,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1854616686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854616684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1854616687
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -57305,7 +55887,7 @@ Transform:
   m_LocalScale: {x: 110000.04, y: 110000.03, z: 110000.02}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1854758377
 MonoBehaviour:
@@ -57530,7 +56112,6 @@ GameObject:
   - component: {fileID: 1862489056}
   - component: {fileID: 1862489055}
   - component: {fileID: 1862489054}
-  - component: {fileID: 1862489053}
   m_Layer: 0
   m_Name: Orb5 (77)
   m_TagString: Untagged
@@ -57552,23 +56133,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1862489053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862489051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1862489054
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -57641,7 +56205,6 @@ GameObject:
   - component: {fileID: 1864615968}
   - component: {fileID: 1864615967}
   - component: {fileID: 1864615966}
-  - component: {fileID: 1864615965}
   m_Layer: 0
   m_Name: Orb4 (53)
   m_TagString: Untagged
@@ -57663,23 +56226,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1864615965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864615963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1864615966
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -57937,7 +56483,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871636882}
   m_LocalRotation: {x: -0, y: 0.8987245, z: -0, w: 0.43851385}
-  m_LocalPosition: {x: -13523.654, y: 7799.8057, z: -2723.567}
+  m_LocalPosition: {x: -12206, y: 14927, z: 24532}
   m_LocalScale: {x: 170.51105, y: 122.15328, z: 326.4115}
   m_Children:
   - {fileID: 13666542}
@@ -58103,7 +56649,7 @@ Transform:
   m_Children:
   - {fileID: 2137692007}
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 57.516003, z: 0}
 --- !u!1 &1894863515
 GameObject:
@@ -58275,7 +56821,6 @@ GameObject:
   - component: {fileID: 1919389504}
   - component: {fileID: 1919389503}
   - component: {fileID: 1919389502}
-  - component: {fileID: 1919389501}
   m_Layer: 0
   m_Name: Orb2 (43)
   m_TagString: Untagged
@@ -58297,23 +56842,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1919389501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919389499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1919389502
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -59232,7 +57760,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 897260452}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1964714378
 MeshRenderer:
@@ -59375,7 +57903,6 @@ GameObject:
   - component: {fileID: 1967258009}
   - component: {fileID: 1967258008}
   - component: {fileID: 1967258007}
-  - component: {fileID: 1967258006}
   m_Layer: 0
   m_Name: Orb5 (80)
   m_TagString: Untagged
@@ -59397,23 +57924,6 @@ Transform:
   m_Father: {fileID: 789288570}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1967258006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967258004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &1967258007
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -59985,7 +58495,7 @@ PrefabInstance:
     - target: {fileID: 4352410836310159845, guid: 42b4a8f1842154e499fba862f1f216ab,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4352410836310159845, guid: 42b4a8f1842154e499fba862f1f216ab,
         type: 3}
@@ -60172,7 +58682,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1990630134
 GameObject:
@@ -60298,7 +58808,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 12a7976f6033a614fb383b67bc981187,
         type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12a7976f6033a614fb383b67bc981187,
         type: 3}
@@ -60399,7 +58909,6 @@ GameObject:
   - component: {fileID: 2002821028}
   - component: {fileID: 2002821027}
   - component: {fileID: 2002821026}
-  - component: {fileID: 2002821025}
   m_Layer: 0
   m_Name: Orb2 (20)
   m_TagString: Untagged
@@ -60421,23 +58930,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2002821025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002821023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2002821026
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -60784,7 +59276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010201621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18011.654, y: 4009.8054, z: -27662.566}
+  m_LocalPosition: {x: -18011.654, y: 13970, z: -27662.566}
   m_LocalScale: {x: 123.47261, y: 74.082085, z: 104.915054}
   m_Children:
   - {fileID: 1030329575}
@@ -60819,7 +59311,6 @@ GameObject:
   - component: {fileID: 2016628663}
   - component: {fileID: 2016628662}
   - component: {fileID: 2016628661}
-  - component: {fileID: 2016628660}
   m_Layer: 0
   m_Name: Orb4 (52)
   m_TagString: Untagged
@@ -60841,23 +59332,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2016628660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016628658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2016628661
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -61230,13 +59704,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043450535}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.63, y: 1.8, z: -7.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2091850968}
   - {fileID: 116513858}
-  m_Father: {fileID: 1837501745}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2043450537
 MonoBehaviour:
@@ -61375,7 +59849,6 @@ GameObject:
   - component: {fileID: 2048539416}
   - component: {fileID: 2048539415}
   - component: {fileID: 2048539414}
-  - component: {fileID: 2048539413}
   m_Layer: 0
   m_Name: Orb4 (48)
   m_TagString: Untagged
@@ -61397,23 +59870,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2048539413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048539411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2048539414
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -62744,7 +61200,6 @@ GameObject:
   - component: {fileID: 2093439445}
   - component: {fileID: 2093439444}
   - component: {fileID: 2093439443}
-  - component: {fileID: 2093439442}
   m_Layer: 0
   m_Name: Orb4 (49)
   m_TagString: Untagged
@@ -62766,23 +61221,6 @@ Transform:
   m_Father: {fileID: 587032702}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2093439442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093439440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2093439443
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -63095,7 +61533,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2108220534
 GameObject:
@@ -63245,17 +61683,6 @@ MonoBehaviour:
     OnEventStart:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 427643595}
-          m_MethodName: FadeToFOV
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 30
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 450464294}
           m_MethodName: PlayAudio
           m_Mode: 2
@@ -63317,7 +61744,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 2
+  - eventStart: 0
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -63457,7 +61884,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 12
+  - eventStart: 14
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -63474,7 +61901,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 427643595}
+        - m_Target: {fileID: 0}
           m_MethodName: FadeToFOV
           m_Mode: 4
           m_Arguments:
@@ -63488,7 +61915,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 15
+  - eventStart: 17
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -63551,7 +61978,7 @@ MonoBehaviour:
     WaitForCallback:
       m_PersistentCalls:
         m_Calls: []
-  - eventStart: 34
+  - eventStart: 36
     activated: 0
     OnEventStart:
       m_PersistentCalls:
@@ -63626,7 +62053,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113449145
 GameObject:
@@ -63640,7 +62067,6 @@ GameObject:
   - component: {fileID: 2113449150}
   - component: {fileID: 2113449149}
   - component: {fileID: 2113449148}
-  - component: {fileID: 2113449147}
   m_Layer: 0
   m_Name: Orb2 (28)
   m_TagString: Untagged
@@ -63662,23 +62088,6 @@ Transform:
   m_Father: {fileID: 619619322}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2113449147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2113449145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2113449148
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -64103,7 +62512,6 @@ GameObject:
   - component: {fileID: 2131763956}
   - component: {fileID: 2131763955}
   - component: {fileID: 2131763954}
-  - component: {fileID: 2131763953}
   m_Layer: 0
   m_Name: Orb2 (44)
   m_TagString: Untagged
@@ -64125,23 +62533,6 @@ Transform:
   m_Father: {fileID: 895774957}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2131763953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131763951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4eb3ff5fadbf264883729d1b4596712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animTime: 4
-  startSize: 0
-  delay: 0
-  playSpawnOrbAnimation: 0
-  spawnOrbPrefab: {fileID: 0}
 --- !u!135 &2131763954
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -64601,7 +62992,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803969562144391842}
   m_LocalRotation: {x: -0, y: 0.4884172, z: -0, w: 0.8726103}
-  m_LocalPosition: {x: -51660.656, y: 4009.8054, z: -27662.566}
+  m_LocalPosition: {x: -51660.656, y: 5768, z: -27662.566}
   m_LocalScale: {x: 108.530266, y: 74.082085, z: 151.13489}
   m_Children:
   - {fileID: 1409514755937679358}
@@ -65433,7 +63824,7 @@ Transform:
   m_Children:
   - {fileID: 899496002166802268}
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652388686904
 Transform:
@@ -65462,7 +63853,7 @@ Transform:
   - {fileID: 1151388028208369414}
   - {fileID: 1151388027671150014}
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450653651322171
 Transform:
@@ -65477,7 +63868,7 @@ Transform:
   m_Children:
   - {fileID: 6320845237791064431}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 46.100002}
 --- !u!33 &580159941275167448
 MeshFilter:

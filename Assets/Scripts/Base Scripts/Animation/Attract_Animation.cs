@@ -22,9 +22,19 @@ public class Attract_Animation : MonoBehaviour
     [SerializeField]
     AnimationCurve attractOrbsScaleMultiplicator;
 
+    public bool testStart;
+
     private void Start()
     {
         orbToGrow.transform.localScale = Vector3.zero;
+    }
+
+    private void Update()
+    {
+        if (testStart)
+        {
+            StartAttractAnimation();
+        }
     }
 
     public void StartAttractAnimation()
@@ -53,16 +63,12 @@ public class Attract_Animation : MonoBehaviour
             for (int j = 0; j < gameObjectWithDistances.Count; j++)
             {
                 Vector3 dirToCenter = transform.position - gameObjectWithDistances[j].go.transform.position;
-                float normalizedDistance = Mathf.InverseLerp(0, 7000, Vector3.Distance(gameObjectWithDistances[j].go.transform.position, transform.position));
-                gameObjectWithDistances[j].go.transform.position += (dirToCenter.normalized * velocity.Evaluate(i / animTime));
+                float normalizedDistance = Mathf.InverseLerp(3000, 7000, Vector3.Distance(gameObjectWithDistances[j].go.transform.position, transform.position));
+                //gameObjectWithDistances[j].go.transform.position += (dirToCenter.normalized * velocity.Evaluate(i / animTime));
+
+                gameObjectWithDistances[j].go.transform.position = Vector3.Lerp(gameObjectWithDistances[j].originalPosition, transform.position, Mathf.Clamp(velocity.Evaluate(i / animTime) / (normalizedDistance), 0, 1));
+
                 float scale = gameObjectWithDistances[j].originalScale * attractOrbsScaleMultiplicator.Evaluate(normalizedDistance);
-
-                if (j == 1)
-                {
-                    print(normalizedDistance);
-                    print(scale);
-                }
-
                 gameObjectWithDistances[j].go.transform.localScale = new Vector3(scale, scale, scale);
             }
 
@@ -85,10 +91,13 @@ public struct GameObjectDistance
 
     public float originalScale;
 
+    public Vector3 originalPosition;
+
     public GameObjectDistance(GameObject gameObject, float distanceTo)
     {
         go = gameObject;
         distance = distanceTo;
         originalScale = go.transform.localScale.x;
+        originalPosition = go.transform.position;
     }
 }

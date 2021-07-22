@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "1PASH9AHW89342",
     "m_SelectedPackage": {
-        "deviceId": "1PASH9AHW89342",
-        "name": "com.DefaultCompany.CURBClean",
-        "processId": 32135,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,38 +11,38 @@
         {
             "deviceId": "1PASH9AHW89342",
             "name": "com.DefaultCompany.CURBClean",
-            "processId": 4784,
-            "exited": true
-        },
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.DefaultCompany.CURBClean",
-            "processId": 5037,
-            "exited": true
-        },
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.DefaultCompany.CURBClean",
-            "processId": 5600,
-            "exited": true
-        },
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.DefaultCompany.CURBClean",
-            "processId": 6876,
-            "exited": true
-        },
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.DefaultCompany.CURBClean",
-            "processId": 27231,
-            "exited": true
-        },
-        {
-            "deviceId": "1PASH9AHW89342",
-            "name": "com.DefaultCompany.CURBClean",
             "processId": 32135,
+            "exited": true
+        },
+        {
+            "deviceId": "1PASH9AHW89342",
+            "name": "com.DefaultCompany.CURBClean",
+            "processId": 3156,
+            "exited": true
+        },
+        {
+            "deviceId": "1PASH9AHW89342",
+            "name": "com.DefaultCompany.CURBClean",
+            "processId": 3748,
+            "exited": true
+        },
+        {
+            "deviceId": "1PASH9AHW89342",
+            "name": "com.DefaultCompany.CURBClean",
+            "processId": 8101,
+            "exited": true
+        },
+        {
+            "deviceId": "1PASH9AHW89342",
+            "name": "com.oculus.shellenv",
+            "processId": 1902,
             "exited": false
+        },
+        {
+            "deviceId": "1PASH9AHW89342",
+            "name": "com.DefaultCompany.CURBClean",
+            "processId": 8513,
+            "exited": true
         }
     ],
     "m_Tags": {

@@ -6,6 +6,8 @@ using TMPro;
 
 public class Scaling : MonoBehaviour
 {
+    [Header("Scaling")]
+
     [SerializeField]
     float[] heights;
 
@@ -30,10 +32,25 @@ public class Scaling : MonoBehaviour
     int scaleCounter;
 
     bool animationLock;
+
+    [Header("Vignette")]
+
+    [SerializeField]
+    float vignetteFadeTime;
+
+    [SerializeField]
+    float vignetteNormalFOV;
+
+    [SerializeField]
+    float vignetteFadeFOV;
+
+    OVRVignette vignette;
+
     // Start is called before the first frame update
     void Start()
     {
-        //ScaleUp();
+        vignette = DeviceManager.Instance.GetHead().GetComponent<OVRVignette>();
+        vignette.VignetteFieldOfView = vignetteNormalFOV;
     }
 
     // Update is called once per frame
@@ -41,7 +58,8 @@ public class Scaling : MonoBehaviour
     {
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.All) || Input.GetKeyDown(KeyCode.S))
         {
-            StartCoroutine(scaleUpAnimated(scaleCounter));
+            scaleCounter++;
+            StartCoroutine(ScaleAnimated(scaleCounter));
         }
 
         if (activateHeightCounter)
@@ -63,14 +81,14 @@ public class Scaling : MonoBehaviour
     {
         if(step != scaleCounter)
         {
-            StartCoroutine(scaleUpAnimated(step));
+            StartCoroutine(ScaleAnimated(step));
         }
     }
 
     public void ScaleUpAnimated()
     {
         scaleCounter++;
-        StartCoroutine(scaleUpAnimated(scaleCounter));
+        StartCoroutine(ScaleAnimated(scaleCounter));
     }
 
     public void SetAnimationTime (float time)
@@ -78,15 +96,16 @@ public class Scaling : MonoBehaviour
         animationTime = time;
     }
 
-    IEnumerator scaleUpAnimated(int step)
+    IEnumerator ScaleAnimated(int step)
     {
         if (animationLock)
             yield break;
 
         animationLock = true;
 
-        OnScaleStart.Invoke();
+        yield return FadeFOV(vignetteFadeFOV);
 
+        OnScaleStart.Invoke();
 
         Vector3 oldPos = transform.position;
         Vector3 newPos = new Vector3(transform.position.x, heights[step], transform.position.z);
@@ -109,7 +128,22 @@ public class Scaling : MonoBehaviour
 
         OnScaleEnd.Invoke();
 
+        yield return FadeFOV(vignetteNormalFOV);
+
         animationLock = false;
 
     }
+
+    IEnumerator FadeFOV(float targetFOV)
+    {
+        float oldFOV = vignette.VignetteFieldOfView;
+
+        for (float i = 0; i < vignetteFadeTime; i += Time.deltaTime)
+        {
+            vignette.VignetteFieldOfView = Mathf.Lerp(oldFOV, targetFOV, i / vignetteFadeTime);
+            yield return null;
+        }
+    }
+
+
 }

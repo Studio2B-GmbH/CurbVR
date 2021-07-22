@@ -135,6 +135,11 @@ public class Fade_Anim : MonoBehaviour
 
     }
 
+    public float GetAnimTime()
+    {
+        return fadeTime;
+    }
+
     private void OnEnable()
     {
         EventTimer.OnResetLerpAnimations += ResetFade;

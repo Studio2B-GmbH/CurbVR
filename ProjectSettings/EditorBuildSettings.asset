@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 6b292fd7601f354478d9fc39174e010c
   - enabled: 1
-    path: Assets/Scenes/Fire_Scene.unity
-    guid: 5401f2b6abbc5834480c0db471dfd4be
-  - enabled: 1
     path: Assets/Scenes/Skalenspiel.unity
     guid: c5820f1b52cdd464a86266820b6b38a4
+  - enabled: 1
+    path: Assets/Scenes/Fire_Scene.unity
+    guid: 5401f2b6abbc5834480c0db471dfd4be
   m_configObjects: {}

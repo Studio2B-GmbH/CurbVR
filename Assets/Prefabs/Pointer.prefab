@@ -291,8 +291,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8408615260444076834}
-  - component: {fileID: 632047563698246519}
   - component: {fileID: 5047711019177790951}
+  - component: {fileID: 632047563698246519}
   m_Layer: 9
   m_Name: Pointer
   m_TagString: FototourView
@@ -318,6 +318,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5047711019177790951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8408615260444076836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857571db0c474384ab6a20793e26d918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleByDistance: 1
+  maxLaserDistance: 8
+  Hitsphere: {fileID: 2200014771704558447}
+  HitRing: {fileID: 8408615260396040745}
+  RayCaster: {fileID: 8408615260610368084}
+  hightlight: {fileID: 8300000, guid: 9319f80069cae54429f114fc7a7d0169, type: 3}
+  select: {fileID: 8300000, guid: fe1c1849d49e4a34aaa41b2a74044c3d, type: 3}
+  laserLineRend: {fileID: 7606678212621196101}
+  lineRendTargetScaleTransform: {fileID: 0}
 --- !u!82 &632047563698246519
 AudioSource:
   m_ObjectHideFlags: 0
@@ -414,26 +435,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5047711019177790951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8408615260444076836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 857571db0c474384ab6a20793e26d918, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scaleByDistance: 1
-  maxLaserDistance: 3
-  Hitsphere: {fileID: 2200014771704558447}
-  HitRing: {fileID: 8408615260396040745}
-  RayCaster: {fileID: 8408615260610368084}
-  hightlight: {fileID: 8300000, guid: 9319f80069cae54429f114fc7a7d0169, type: 3}
-  select: {fileID: 8300000, guid: fe1c1849d49e4a34aaa41b2a74044c3d, type: 3}
-  laserLineRend: {fileID: 7606678212621196101}
 --- !u!1 &8408615260610368084
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8408615260610368084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.377}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8408615260444076834}
@@ -491,7 +492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8408615261080966690}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0006, z: 0.0562}
+  m_LocalPosition: {x: 0.0004, y: -0.021, z: 0.0059}
   m_LocalScale: {x: 0.006086041, y: 0.00824401, z: 0.087846115}
   m_Children: []
   m_Father: {fileID: 8408615260444076834}

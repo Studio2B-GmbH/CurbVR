@@ -28,6 +28,9 @@ public class Pointer_Controller : MonoBehaviour
     [SerializeField]
     LineRenderer laserLineRend;
 
+    [SerializeField]
+    Transform lineRendTargetScaleTransform;
+
     public delegate void enterGameObject(RaycastHit hit);
     public static event enterGameObject OnEnterGameObject;
 
@@ -91,8 +94,13 @@ public class Pointer_Controller : MonoBehaviour
         transform.position = controllerAnchor.transform.position;
         transform.rotation = controllerAnchor.transform.rotation;
 
+        if(lineRendTargetScaleTransform != null)
+        {
+            laserLineRend.widthMultiplier = lineRendTargetScaleTransform.localScale.y;
+        }
+
         RaycastHit hit;
-        if (Physics.Raycast(RayCaster.transform.position, transform.TransformDirection(Vector3.forward), out hit, 10000f, noHMDHitLayerMask))
+        if (Physics.Raycast(RayCaster.transform.position, transform.TransformDirection(Vector3.forward), out hit, 99999999, noHMDHitLayerMask))
         {
             if (!hit.collider.isTrigger)
             {
@@ -206,8 +214,15 @@ public class Pointer_Controller : MonoBehaviour
 
     private void SetLaserDistance(float distance)
     {
-        Vector3 position1 = transform.position;
-        Vector3 position2 = transform.position + (transform.forward * Mathf.Clamp(distance, 0, maxLaserDistance));
+        float targetScale = 1f;
+
+        if(lineRendTargetScaleTransform != null)
+        {
+            targetScale = lineRendTargetScaleTransform.localScale.y;
+        }
+
+        Vector3 position1 = laserLineRend.transform.position;
+        Vector3 position2 = transform.position + ((transform.forward * Mathf.Clamp(distance, 0, maxLaserDistance * targetScale)));
 
         laserLineRend.SetPosition(0, position1);
         laserLineRend.SetPosition(1, position2);

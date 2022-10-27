@@ -8,26 +8,42 @@ public class MainMenuStartingPoint : MonoBehaviour
     EventTimer firstStartEventTimer;
 
     [SerializeField]
-    EventTimer otherStartEventTimer;
+    EventTimer concurrentStartsEventTimer;
 
-    string persistentObjectName = "PersistentMainMenuObject";
+    [SerializeField]
+    GameObject co2Bubble;
 
     //We check with a persistent game object if the menu has been called before
     void Start()
     {
-        if(GameObject.Find(persistentObjectName) == null)
-        {
-            GameObject persistentObject = new GameObject();
-            persistentObject = Instantiate(persistentObject);
-            persistentObject.name = persistentObjectName;
-            DontDestroyOnLoad(persistentObject);
+        co2Bubble.SetActive(false);
 
-            firstStartEventTimer.StartTimer();
+        GameObject sceneProgressGO = GameObject.Find("SceneProgressTracker");
+
+        if (sceneProgressGO != null)
+        {
+            SceneProgress sceneProgress = sceneProgressGO.GetComponent<SceneProgress>();
+
+            if (!sceneProgress.startSceneActivated)
+            {
+                firstStartEventTimer.StartTimer();
+            }
+
+            else
+            {
+                concurrentStartsEventTimer.StartTimer();
+            }
+
+            if (sceneProgress.skalenSpielSceneActivated)
+            {
+                co2Bubble.SetActive(true);
+            }
+
         }
 
         else
         {
-            otherStartEventTimer.StartTimer();
+            concurrentStartsEventTimer.StartTimer();
         }
     }
 }

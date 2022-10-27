@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1588377772468694671}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.09999275}
-  m_LocalScale: {x: 0.08599512, y: 0.12369411, z: 0.08599517}
+  m_LocalScale: {x: 0.24210137, y: 0.348235, z: 0.24210148}
   m_Children: []
   m_Father: {fileID: 975382430903220590}
   m_RootOrder: 0
@@ -199,7 +199,7 @@ Transform:
   m_GameObject: {fileID: 5047711020111935755}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -0.07}
-  m_LocalScale: {x: 0.09800443, y: 0.14096811, z: 0.098004475}
+  m_LocalScale: {x: 0.31566983, y: 0.45405477, z: 0.31566998}
   m_Children: []
   m_Father: {fileID: 975382430903220590}
   m_RootOrder: 1
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 632047563698246519}
   m_Layer: 9
   m_Name: Pointer
-  m_TagString: FototourView
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -330,7 +330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 857571db0c474384ab6a20793e26d918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleByDistance: 1
+  scaleByDistance: 1.5
+  minLaserDistance: 3
   maxLaserDistance: 8
   Hitsphere: {fileID: 2200014771704558447}
   HitRing: {fileID: 8408615260396040745}

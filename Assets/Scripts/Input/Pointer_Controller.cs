@@ -8,6 +8,9 @@ public class Pointer_Controller : MonoBehaviour
     float scaleByDistance = 1f;
 
     [SerializeField]
+    float minLaserDistance = 2f;
+
+    [SerializeField]
     float maxLaserDistance = 3f;
 
     [SerializeField]
@@ -79,7 +82,7 @@ public class Pointer_Controller : MonoBehaviour
         noHMDHitLayerMask = 1 << 10;
         noHMDHitLayerMask = ~noHMDHitLayerMask;
 
-        SetLaserDistance(1f);
+        SetLaserDistance(1f, false);
 
     }
 
@@ -94,7 +97,7 @@ public class Pointer_Controller : MonoBehaviour
         transform.position = controllerAnchor.transform.position;
         transform.rotation = controllerAnchor.transform.rotation;
 
-        if(lineRendTargetScaleTransform != null)
+        if (lineRendTargetScaleTransform != null)
         {
             laserLineRend.widthMultiplier = lineRendTargetScaleTransform.localScale.y;
         }
@@ -112,15 +115,15 @@ public class Pointer_Controller : MonoBehaviour
 
                 Plane plane = new Plane(Camera.main.transform.forward, Camera.main.transform.position);
                 float dist = plane.GetDistanceToPoint(hit.point);
-                Hitsphere.transform.localScale = RingStartSize * dist * scaleByDistance;
-                HitRing.transform.localScale = SphereStartSize * dist * scaleByDistance;
+                Hitsphere.transform.localScale = RingStartSize * (dist / dist) * scaleByDistance;
+                HitRing.transform.localScale = SphereStartSize * (dist / dist) * scaleByDistance;
                 Hitsphere.SetActive(true);
 
-                SetLaserDistance(Vector3.Distance(hit.point, transform.position));
+                SetLaserDistance(Vector3.Distance(hit.point, transform.position), true);
 
                 if (DeviceManager.Instance.GetSelectionButtonDown() && hit.collider.tag != "VisualOnly")
                 {
-                    if(OnPressedGameObjectDown != null)
+                    if (OnPressedGameObjectDown != null)
                     {
                         OnPressedGameObjectDown.Invoke(hit);
                     }
@@ -130,15 +133,21 @@ public class Pointer_Controller : MonoBehaviour
 
                 if (DeviceManager.Instance.GetSelectionButton() && !DeviceManager.Instance.GetSelectionButtonDown())
                 {
-                    OnPressedStayGameObject.Invoke(hit);
+                    if(OnPressedStayGameObject != null)
+                    {
+                        OnPressedStayGameObject.Invoke(hit);
+                    }
                 }
 
                 if (DeviceManager.Instance.GetSelectionButtonUp())
                 {
-                    OnPressedGameObjectUp.Invoke(hit);
+                    if(OnPressedGameObjectUp != null)
+                    {
+                        OnPressedGameObjectUp.Invoke(hit);
+                    }
                 }
             }
-        
+
             OnConstanstantRayCastHitUpdatePointer?.Invoke(hit);
         }
 
@@ -146,7 +155,7 @@ public class Pointer_Controller : MonoBehaviour
         {
             if (!hit.collider.isTrigger)
             {
-                if(oldhitGameObject != null)
+                if (oldhitGameObject != null)
                 {
                     //Pointer Stays on Object
                     if (oldhitGameObject == hit.transform.gameObject)
@@ -162,28 +171,18 @@ public class Pointer_Controller : MonoBehaviour
 
                         //If Pointer hovers over selectable object, play sound
 
-                        if(hit.transform.GetComponent<PointerEventReciever>() != null)
-                        {
-                            if (hit.transform.GetComponent<PointerEventReciever>().recieverEnabled)
-                            {
-                                Audio.PlayOneShot(hightlight);
-                            }
-                        }
+                        if (hit.transform.CompareTag("Selectable"))
+                            Audio.PlayOneShot(hightlight);
                     }
-                }       
-                
+                }
+
                 //Pointer Enters new Gameobject
-                if(oldhitGameObject == null)
+                if (oldhitGameObject == null)
                 {
                     OnEnterGameObject?.Invoke(hit);
 
-                    if (hit.transform.GetComponent<PointerEventReciever>() != null)
-                    {
-                        if (hit.transform.GetComponent<PointerEventReciever>().recieverEnabled)
-                        {
-                            Audio.PlayOneShot(hightlight);
-                        }
-                    }
+                    if (hit.transform.CompareTag("Selectable"))
+                        Audio.PlayOneShot(hightlight);
                 }
 
                 oldhitGameObject = hit.transform.gameObject;
@@ -196,7 +195,7 @@ public class Pointer_Controller : MonoBehaviour
         else
         {
             //Pointer leaves GO
-            if(oldhitGameObject != null)
+            if (oldhitGameObject != null)
             {
                 OnExitGameObject?.Invoke(oldHit);
             }
@@ -206,23 +205,33 @@ public class Pointer_Controller : MonoBehaviour
             Hitsphere.SetActive(false);
             HitRing.SetActive(false);
 
-            SetLaserDistance(1f);
+            SetLaserDistance(0, false);
 
-        }    
+        }
     }
 
 
-    private void SetLaserDistance(float distance)
+    private void SetLaserDistance(float distance, bool hit)
     {
         float targetScale = 1f;
 
-        if(lineRendTargetScaleTransform != null)
+        if (lineRendTargetScaleTransform != null)
         {
             targetScale = lineRendTargetScaleTransform.localScale.y;
         }
 
         Vector3 position1 = laserLineRend.transform.position;
-        Vector3 position2 = transform.position + ((transform.forward * Mathf.Clamp(distance, 0, maxLaserDistance * targetScale)));
+        Vector3 position2 = Vector3.zero;
+
+        if (hit)
+        {
+            position2 = transform.position + ((transform.forward * Mathf.Clamp(distance, 0, maxLaserDistance * targetScale)));
+        }
+
+        else
+        {
+            position2 = transform.position + (transform.forward * minLaserDistance * targetScale);
+        }
 
         laserLineRend.SetPosition(0, position1);
         laserLineRend.SetPosition(1, position2);

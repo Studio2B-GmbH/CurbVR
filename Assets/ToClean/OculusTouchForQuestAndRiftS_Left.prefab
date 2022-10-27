@@ -113,7 +113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e398e6de24d2b47a11b3b1fb6df1c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserPointer: {fileID: 0}
   controllerRenderer: {fileID: 506373492166132865}
   opaqueMaterial: {fileID: 2100000, guid: 01ac879f6ce09924e9c26663f798beaf, type: 2}
   transparentMaterial: {fileID: 2100000, guid: 4c64f84586d4aaf49a6bd2c414287363, type: 2}
@@ -434,6 +433,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tippText: {fileID: 506373492838768941}
   arrowRend: {fileID: 506373493098928949}
-  minTippDistance: 0.6
-  maxTippDistance: 0.5
+  minTippDistance: 0
+  maxTippDistance: 1.2
   lookAtMin: 0.8

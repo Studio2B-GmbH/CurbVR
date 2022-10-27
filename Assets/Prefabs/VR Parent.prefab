@@ -38,6 +38,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6079961810747536433}
     m_Modifications:
+    - target: {fileID: 3700779095423801593, guid: 8003bb7986d8435418546dc2bfb6d17d,
+        type: 3}
+      propertyPath: maxTippDistance
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3773118155997127286, guid: 8003bb7986d8435418546dc2bfb6d17d,
         type: 3}
       propertyPath: m_BackGroundColor.r

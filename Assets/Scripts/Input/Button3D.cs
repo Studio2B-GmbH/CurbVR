@@ -191,6 +191,7 @@ public class Button3D : MonoBehaviour
         fadeAnim.FadeOverTime(1);
         buttonEnabled = true;
         col.enabled = true;
+        rend.material.mainTexture = defaultTex;
     }
 
     public void Hide()

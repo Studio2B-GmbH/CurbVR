@@ -4,6 +4,19 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 
+
+[System.Serializable]
+public class GameObjectList
+{
+    public List<GameObject> list;
+}
+
+[System.Serializable]
+public class GameObjectListList
+{
+    public List<GameObjectList> list;
+}
+
 public class Scaling : MonoBehaviour
 {
     [Header("Scaling")]
@@ -29,6 +42,13 @@ public class Scaling : MonoBehaviour
     [SerializeField]
     UnityEvent OnScaleEnd;
 
+    [SerializeField]
+    GameObjectListList scaleLODAppearingOnScaleStart;
+
+    [SerializeField]
+    GameObjectListList scaleLODImposters;
+
+
     int scaleCounter;
 
     bool animationLock;
@@ -51,6 +71,38 @@ public class Scaling : MonoBehaviour
     {
         vignette = DeviceManager.Instance.GetHead().GetComponent<OVRVignette>();
         vignette.VignetteFieldOfView = vignetteNormalFOV;
+
+        //Some very basic LOD that disables object that are not assigned to the current level
+
+        GameObjectList objectsToActivate = scaleLODAppearingOnScaleStart.list[scaleCounter];
+
+        foreach (GameObject go in objectsToActivate.list)
+        {
+            go.SetActive(true);
+        }
+
+        for (int i = 0; i < scaleLODAppearingOnScaleStart.list.Count; i++)
+        {
+            if (i != scaleCounter)
+            {
+                foreach (GameObject go in scaleLODAppearingOnScaleStart.list[i].list)
+                {
+                    if (!objectsToActivate.list.Contains(go))
+                        go.SetActive(false);
+                }
+            }
+        }
+
+        for (int i = 0; i < scaleLODImposters.list.Count; i++)
+        {
+            if (i != scaleCounter)
+            {
+                foreach (GameObject go in scaleLODImposters.list[i].list)
+                {
+                        go.SetActive(false);
+                }
+            }
+        }
     }
 
     // Update is called once per frame
@@ -59,6 +111,9 @@ public class Scaling : MonoBehaviour
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.All) || Input.GetKeyDown(KeyCode.S))
         {
             scaleCounter++;
+
+            if (scaleCounter == heights.Length)
+                scaleCounter = 0;
             StartCoroutine(ScaleAnimated(scaleCounter));
         }
 
@@ -67,15 +122,6 @@ public class Scaling : MonoBehaviour
             heightCounter.text = "Du bist jetzt " + Mathf.CeilToInt(transform.position.y) + " Meter groß";
         }
     }
-
-    //public void ScaleUp()
-    //{
-    //    transform.position = new Vector3(transform.position.x, heights[scaleCounter], transform.position.z);
-
-    //    float scaleMultiplier = (1f / 1.8f) * heights[scaleCounter];
-    //    transform.localScale = new Vector3(scaleMultiplier, scaleMultiplier, scaleMultiplier);
-
-    //}
 
     public void ScaleToStepAnimated(int step)
     {
@@ -105,6 +151,28 @@ public class Scaling : MonoBehaviour
 
         yield return FadeFOV(vignetteFadeFOV);
 
+        //Activating LODs
+
+        GameObjectList objectsToActivate = scaleLODAppearingOnScaleStart.list[step];
+
+        foreach (GameObject go in objectsToActivate.list)
+        {
+            go.SetActive(true);
+        }
+
+        //Deactivating Imposters
+
+        for (int i = 0; i < scaleLODImposters.list.Count; i++)
+        {
+            if (i != step)
+            {
+                foreach (GameObject go in scaleLODImposters.list[i].list)
+                {
+                    go.SetActive(false);
+                }
+            }
+        }
+
         OnScaleStart.Invoke();
 
         Vector3 oldPos = transform.position;
@@ -115,6 +183,7 @@ public class Scaling : MonoBehaviour
         Vector3 newscale = new Vector3(scaleMultiplier, scaleMultiplier, scaleMultiplier);
 
 
+        //Deactivating LODs
         for (float i = 0; i < animationTime; i += Time.deltaTime)
         {
             float y = scaleCurve.Evaluate(i / animationTime);
@@ -125,6 +194,24 @@ public class Scaling : MonoBehaviour
         }
 
         scaleCounter = step;
+
+        for (int i = 0; i < scaleLODAppearingOnScaleStart.list.Count; i++)
+        {
+            if(i != step)
+            {
+                foreach (GameObject go in scaleLODAppearingOnScaleStart.list[i].list)
+                {
+                    if(!objectsToActivate.list.Contains(go))
+                        go.SetActive(false);
+                }
+            }            
+        }
+
+        //Activating Imposters
+        for (int i = 0; i < scaleLODImposters.list[step].list.Count; i++)
+        {
+            scaleLODImposters.list[step].list[i].SetActive(true);
+        }
 
         OnScaleEnd.Invoke();
 
